@@ -67,6 +67,16 @@ bookkeeping.
 5. Create or update the **recipe** page. Normalize ingredient lines to the schema format, using
    purchasable units where natural. Cite page numbers for PDF and book sources, and timestamps
    for videos.
+   - **`servings` is required** (a positive number: how many the recipe makes *as written*).
+     Take it from the source (the capture's `yield` / recipeYield, or the book's "Serves").
+     A count of something other than servings sets `yield_unit` too: "48 cookies" →
+     `servings: 48`, `yield_unit: cookies`. For a range ("4-6 servings") use the lower bound and
+     note the range in `## Notes`. If the source gives none, estimate from the quantities and
+     say in `## Notes` that it's an estimate, or ask the user.
+   - **Scaling advice** from the source (brown in batches when doubling, don't scale salt,
+     leavening or chile linearly, longer cook time, bigger pan) goes under `### Scaling` in
+     `## Notes`, cited. When the user reports how a scaled batch went (e.g. a meal log note
+     like "made 8, doubled"), add it there too, dated: `- 2026-11-14: made 8 servings; ...`.
 6. For every ingredient, equipment item, technique, and cuisine the recipe references, update the
    page if it exists, or create it from the template if it doesn't. Add back-references, and add
    any new substitutes, tips, or cuisine spice-profile entries the source teaches. One source

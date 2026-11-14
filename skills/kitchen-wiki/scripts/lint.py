@@ -7,7 +7,8 @@ Usage:
 
 Errors (exit code 1): unparseable frontmatter, missing required fields,
 type/folder mismatch, duplicate slugs, ingredient lines without a link,
-frontmatter edge links to pages that don't exist, raw files whose sha256
+frontmatter edge links to pages that don't exist, recipe `servings`
+that isn't a positive number, empty or non-string `yield_unit`, raw files whose sha256
 no longer matches the source page's `raw_sha256`.
 Warnings: missing reciprocal edges (incl. sources <-> informs), stale
 backlinks, body links missing from frontmatter edges, unresolved `[?]`
@@ -25,7 +26,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kitchen_vault import (  # noqa: E402
     FOLDER_TYPES, INGREDIENT_CATEGORIES, REQUIRED_FIELDS, find_vault,
-    links_in, load_vault, parse_ingredient_line, sha256_file,
+    links_in, load_vault, parse_ingredient_line, parse_servings, sha256_file,
 )
 
 # (source type, source key, target type, target keys that must link back)
@@ -91,6 +92,14 @@ def lint(vault_root: Path) -> dict:
             if p.meta.get(f) in (None, "", []):
                 errors.append(f"{rel(p)}: missing required field '{f}'")
         if p.type == "recipe":
+            sv = p.meta.get("servings")
+            if sv not in (None, "", []) and parse_servings(sv) is None:
+                errors.append(f"{rel(p)}: servings must be a positive number (got {sv!r})")
+            if "yield_unit" in p.meta:
+                yu = p.meta.get("yield_unit")
+                if not isinstance(yu, str) or not yu.strip():
+                    errors.append(f"{rel(p)}: yield_unit must be a non-empty string "
+                                  f"(got {yu!r}), e.g. cookies, loaves, cups")
             for line in p.meta.get("ingredients") or []:
                 if parse_ingredient_line(line) is None:
                     errors.append(f"{rel(p)}: ingredient line has no [[link]]: {line!r}")

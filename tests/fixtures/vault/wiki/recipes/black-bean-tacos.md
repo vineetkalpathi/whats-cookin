@@ -3,6 +3,7 @@ type: recipe
 title: Black Bean Tacos
 cuisine:
   - "[[mexican]]"
+servings: 4
 ingredients:
   - "2 can [[black-beans]]"
   - "1 tsp [[cumin]]"

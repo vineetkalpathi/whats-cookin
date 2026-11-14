@@ -36,6 +36,26 @@ def tiebreak(week: str, slug: str) -> str:
     return hashlib.sha256(f"{week}:{slug}".encode()).hexdigest()
 
 
+def servings_of(meta: dict) -> tuple[int | float | None, str]:
+    """(servings, yield_unit) as written on the recipe; servings is None if missing or invalid."""
+    n = meta.get("servings")
+    if isinstance(n, bool) or not isinstance(n, (int, float)) or n <= 0:
+        n = None
+    elif isinstance(n, float) and n.is_integer():
+        n = int(n)
+    unit = meta.get("yield_unit")
+    unit = unit.strip() if isinstance(unit, str) and unit.strip() else "servings"
+    return n, unit
+
+
+def servings_text(n: int | float | None, unit: str) -> str:
+    if n is None:
+        return "servings: not set"
+    if unit == "servings":
+        return f"serves {n} as written"
+    return f"makes {n} {unit} as written"
+
+
 def suggest(vault_root: Path, today: dt.date, cooldown: int, count: int,
             exclude_cuisines: set[str], exclude_recipes: set[str]) -> dict:
     v = load_vault(vault_root)
@@ -76,10 +96,13 @@ def suggest(vault_root: Path, today: dt.date, cooldown: int, count: int,
             continue
         s = cands[0]
         used.add(s)
+        servings, yield_unit = servings_of(recipes[s].meta)
         picks.append({
             "recipe": s,
             "title": recipes[s].title,
             "path": str(recipes[s].path.relative_to(vault_root)),
+            "servings": servings,
+            "yield_unit": yield_unit,
             "cuisine": c,
             "cuisine_last_eaten": None if cuisine_last[c] == NEVER else cuisine_last[c],
             "recipe_last_eaten": last.get(s),
@@ -122,6 +145,7 @@ def main() -> int:
         return 2
     for i, s in enumerate(r["suggestions"], 1):
         print(f"{i}. [[{s['recipe']}]] {s['title']}  ({s['path']})")
+        print(f"   {servings_text(s['servings'], s['yield_unit'])}")
         print(f"   cuisine [[{s['cuisine']}]] last eaten: {s['cuisine_last_eaten'] or 'never'}; "
               f"this recipe last eaten: {s['recipe_last_eaten'] or 'never'}")
         if s["other_candidates_in_cuisine"]:

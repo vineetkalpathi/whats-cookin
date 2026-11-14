@@ -3,6 +3,7 @@ type: recipe
 title: Cacio e Pepe
 cuisine:
   - "[[italian]]"
+servings: 2
 ingredients:
   - "8 oz [[spaghetti]]"
   - "1 cup [[pecorino]], finely grated"

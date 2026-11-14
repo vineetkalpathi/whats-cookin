@@ -3,6 +3,7 @@ type: recipe
 title: Chana Masala
 cuisine:
   - "[[indian]]"
+servings: 4
 ingredients:
   - "2 can [[chickpeas]], drained"
   - "1 large [[onion]], diced"

@@ -31,7 +31,7 @@ FOLDER_TYPES = {
 }
 
 REQUIRED_FIELDS = {
-    "recipe": ["title", "cuisine", "ingredients"],
+    "recipe": ["title", "cuisine", "ingredients", "servings"],
     "ingredient": ["title", "category"],
     "equipment": ["title"],
     "technique": ["title"],
@@ -435,6 +435,31 @@ def to_base(qty: Fraction, unit: str) -> Fraction:
     if unit in WEIGHT_UNITS:
         return qty * Fraction(WEIGHT_UNITS[unit]).limit_denominator(10000)
     return qty
+
+
+DEFAULT_YIELD_UNIT = "servings"
+
+
+def parse_servings(value) -> Fraction | None:
+    """A recipe's `servings` as an exact positive Fraction, or None if missing/invalid.
+
+    Accepts frontmatter ints and decimals (4, 1.5). Strings, booleans, ranges
+    and non-positive numbers are invalid.
+    """
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        return None
+    try:
+        x = Fraction(str(value))
+    except (ValueError, ZeroDivisionError):
+        return None
+    return x if x > 0 else None
+
+
+def recipe_yield(page) -> tuple[Fraction | None, str]:
+    """(servings, yield_unit) for a recipe page. yield_unit defaults to 'servings'."""
+    unit = page.meta.get("yield_unit")
+    unit = unit.strip() if isinstance(unit, str) and unit.strip() else DEFAULT_YIELD_UNIT
+    return parse_servings(page.meta.get("servings")), unit
 
 
 # --------------------------------------------------------------------------

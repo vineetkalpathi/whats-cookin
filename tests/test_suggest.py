@@ -1,4 +1,6 @@
 import datetime as dt
+import json
+import re
 import unittest
 
 from _helpers import FIXTURE_VAULT, SUGGEST_SCRIPTS, run_script, temp_vault
@@ -13,6 +15,15 @@ TODAY = dt.date(2026, 11, 14)
 
 def pick(root=FIXTURE_VAULT, today=TODAY, cooldown=14, count=1, xc=(), xr=()):
     return suggest.suggest(root, today, cooldown, count, set(xc), set(xr))
+
+
+def set_servings(root, slug, servings=None, yield_unit=None):
+    """Rewrite a temp-vault recipe's servings/yield_unit lines (None = leave the key out)."""
+    path = root / "wiki" / "recipes" / f"{slug}.md"
+    text = re.sub(r"^(servings|yield_unit):.*\n", "", path.read_text(encoding="utf-8"), flags=re.M)
+    extra = "".join(f"{k}: {v}\n" for k, v in (("servings", servings), ("yield_unit", yield_unit))
+                    if v is not None)
+    path.write_text(text.replace("type: recipe\n", "type: recipe\n" + extra, 1), encoding="utf-8")
 
 
 class SuggestTests(unittest.TestCase):
@@ -60,6 +71,35 @@ class SuggestTests(unittest.TestCase):
                 "--exclude-recipe", "dal-tadka"]
         self.assertEqual(run_script(SUGGEST, *args).returncode, 2)
         self.assertEqual(run_script(SUGGEST, *args, "--json").returncode, 2)
+
+
+class ServingsTests(unittest.TestCase):
+    def test_json_includes_servings_and_yield_unit(self):
+        with temp_vault() as root:
+            set_servings(root, "cacio-e-pepe", 2)
+            set_servings(root, "dal-tadka", 48, "cookies")
+            r = run_script(SUGGEST, "--vault", root, "--date", "2026-11-14", "--count", "2", "--json")
+            self.assertEqual(r.returncode, 0, r.stderr)
+            got = {s["recipe"]: (s["servings"], s["yield_unit"]) for s in json.loads(r.stdout)["suggestions"]}
+        self.assertEqual(got, {"cacio-e-pepe": (2, "servings"), "dal-tadka": (48, "cookies")})
+
+    def test_human_output_shows_servings(self):
+        with temp_vault() as root:
+            set_servings(root, "cacio-e-pepe", 4)
+            set_servings(root, "dal-tadka", 1, "loaf")
+            r = run_script(SUGGEST, "--vault", root, "--date", "2026-11-14", "--count", "2")
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn("serves 4 as written", r.stdout)
+        self.assertIn("makes 1 loaf as written", r.stdout)
+
+    def test_missing_servings_does_not_crash_or_change_pick(self):
+        with temp_vault() as root:
+            set_servings(root, "cacio-e-pepe", None)
+            self.assertEqual(pick(root)["suggestions"][0]["servings"], None)
+            r = run_script(SUGGEST, "--vault", root, "--date", "2026-11-14")
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn("[[cacio-e-pepe]]", r.stdout)
+        self.assertIn("servings: not set", r.stdout)
 
 
 class LogMealTests(unittest.TestCase):

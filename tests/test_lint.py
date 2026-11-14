@@ -41,7 +41,7 @@ class VaultCase(unittest.TestCase):
         (self.root / "wiki").mkdir()
         (self.root / "raw").mkdir()
         self.page("recipes/toast", fm(
-            type="recipe", title="Toast", cuisine=["[[british]]"],
+            type="recipe", title="Toast", servings=2, cuisine=["[[british]]"],
             ingredients=["2 slice [[bread]]"]), "Toast the [[bread]].")
         self.page("ingredients/bread", fm(
             type="ingredient", title="Bread", category="bakery", used_in=["[[toast]]"]))
@@ -89,7 +89,7 @@ class TestExistingRules(VaultCase):
         self.assertEqual(r["errors"], [])
 
     def test_duplicate_slug(self):
-        self.page("recipes/bread", fm(type="recipe", title="Bread", cuisine=["[[british]]"],
+        self.page("recipes/bread", fm(type="recipe", title="Bread", servings=1, cuisine=["[[british]]"],
                                       ingredients=["1 [[bread]]"]))
         self.assertMentions(self.run_lint()["errors"], "duplicate slug 'bread'")
 
@@ -106,7 +106,7 @@ class TestBodyEdges(VaultCase):
     def test_recipe_body_link_missing_from_frontmatter(self):
         self.page("techniques/toasting", fm(type="technique", title="Toasting", used_in=["[[toast]]"]))
         self.page("recipes/toast", fm(
-            type="recipe", title="Toast", cuisine=["[[british]]"],
+            type="recipe", title="Toast", servings=2, cuisine=["[[british]]"],
             ingredients=["2 slice [[bread]]"]), "Toast the [[bread]] ([[toasting]]).")
         r = self.run_lint()
         self.assertMentions(r["body_links_missing_from_edges"],
@@ -116,7 +116,7 @@ class TestBodyEdges(VaultCase):
     def test_recipe_body_link_present_in_frontmatter(self):
         self.page("techniques/toasting", fm(type="technique", title="Toasting", used_in=["[[toast]]"]))
         self.page("recipes/toast", fm(
-            type="recipe", title="Toast", cuisine=["[[british]]"],
+            type="recipe", title="Toast", servings=2, cuisine=["[[british]]"],
             ingredients=["2 slice [[bread]]"], techniques=["[[toasting]]"]),
             "Toast the [[bread]] ([[toasting]]), see [[british]].")
         self.assertEqual(self.run_lint()["body_links_missing_from_edges"], [])
@@ -157,7 +157,7 @@ class TestSourceBacklinks(VaultCase):
 class TestDanglingEdges(VaultCase):
     def test_edge_key_dangling_is_error(self):
         self.page("recipes/toast", fm(
-            type="recipe", title="Toast", cuisine=["[[british]]"],
+            type="recipe", title="Toast", servings=2, cuisine=["[[british]]"],
             ingredients=["2 slice [[bread]]", "1 tbsp [[butter]]"]), "")
         r = self.run_lint()
         self.assertMentions(r["errors"], "toast.md", "ingredients", "[[butter]]")
@@ -177,7 +177,7 @@ class TestRawFiles(VaultCase):
         self.page("sources/toast-src", fm(type="source", title="Toast src", raw=f'"{raw}"',
                                           informs=["[[toast]]"], **extra))
         self.page("recipes/toast", fm(
-            type="recipe", title="Toast", cuisine=["[[british]]"],
+            type="recipe", title="Toast", servings=2, cuisine=["[[british]]"],
             ingredients=["2 slice [[bread]]"], sources=["[[toast-src]]"]), "")
 
     def test_unresolved_marks(self):
@@ -206,6 +206,38 @@ class TestRawFiles(VaultCase):
         self.assertEqual(self.run_lint()["errors"], [])
         p.write_text("edited\n", encoding="utf-8")
         self.assertMentions(self.run_lint()["errors"], "toast-src.md", "raw file changed since ingest")
+
+
+class TestServings(VaultCase):
+    def toast(self, **extra):
+        meta = dict(type="recipe", title="Toast", cuisine=["[[british]]"],
+                    ingredients=["2 slice [[bread]]"])
+        meta.update(extra)
+        self.page("recipes/toast", fm(**meta), "Toast the [[bread]].")
+
+    def test_missing_servings_is_error(self):
+        self.toast()
+        self.assertMentions(self.run_lint()["errors"], "toast.md", "missing required field 'servings'")
+
+    def test_invalid_servings_are_errors(self):
+        for bad in ("0", "-2", "lots", '"4"', "true"):
+            with self.subTest(servings=bad):
+                self.toast(servings=bad)
+                self.assertMentions(self.run_lint()["errors"], "toast.md",
+                                    "servings must be a positive number")
+
+    def test_valid_servings_and_yield_unit_pass(self):
+        for good in ({"servings": 4}, {"servings": 1.5}, {"servings": 24, "yield_unit": "cookies"}):
+            with self.subTest(**good):
+                self.toast(**good)
+                self.assertEqual(self.run_lint()["errors"], [])
+
+    def test_yield_unit_must_be_nonempty_string(self):
+        for bad in ("12", "true", '""'):
+            with self.subTest(yield_unit=bad):
+                self.toast(servings=2, yield_unit=bad)
+                self.assertMentions(self.run_lint()["errors"], "toast.md",
+                                    "yield_unit must be a non-empty string")
 
 
 class TestCLI(VaultCase):

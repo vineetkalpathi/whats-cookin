@@ -108,7 +108,8 @@ empty), and `updated: YYYY-MM-DD`.
 | `ingredients` | ✓ | ingredient lines (format above) |
 | `equipment` | | list of equipment links |
 | `techniques` | | list of technique links |
-| `servings` | | number |
+| `servings` | ✓ | positive number (int or decimal): how many the recipe makes as written, in `yield_unit`s. Grocery lists scale from it (`slug@N`) |
+| `yield_unit` | | plural noun when the yield isn't servings (`cookies`, `loaves`, `cups`); default `servings`. Non-empty string |
 | `active_time`, `total_time` | | minutes (number) |
 | `course` | | `main`, `side`, `breakfast`, `dessert`, `snack`, `drink`, `component` |
 | `diet` | | e.g. `[vegetarian, vegan, gluten-free]` |
@@ -116,7 +117,9 @@ empty), and `updated: YYYY-MM-DD`.
 | `rating` | | 1–5, the user's own rating |
 
 Body sections: summary line, `## Ingredients` (human-readable, with links), `## Method`
-(numbered), `## Notes` (tips, variations, what went wrong last time), `## Related`.
+(numbered), `## Notes` (tips, variations, what went wrong last time; a `### Scaling`
+subsection holds batch-cooking advice from sources and dated reports of scaled batches, and
+servings estimates or ranges are noted here), `## Related`.
 
 ### ingredient (`wiki/ingredients/`)
 | field | req | notes |

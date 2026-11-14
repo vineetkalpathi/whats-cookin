@@ -2,6 +2,7 @@
 type: recipe
 title: Dal Tadka
 cuisine: ["[[indian]]"]
+servings: 4
 ingredients:
   - "1 cup [[red-lentils]], rinsed"
   - "1 small [[onion]]"

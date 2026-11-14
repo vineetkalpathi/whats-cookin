@@ -40,8 +40,14 @@ When you present the result:
   page.
 - Explain in one line why it was picked (e.g. "Mexican hasn't been on the table since Oct 2, the
   longest of any cuisine").
+- Show the as-written yield from the script (`serves 4 as written`, `makes 48 cookies as
+  written`). If it says `servings: not set`, say so and offer to fix the recipe page.
 - Show the runner-ups if `--count > 1`, and offer the `grocery-list` skill for the chosen
   recipe(s).
+- **Before shopping, ask how many servings to make of each pick** (in the recipe's
+  `yield_unit`). There is no default: don't assume "as written" or 2x, and don't carry over a
+  previous week's answer. Pass the answers to `grocery-list` as `slug@N` (e.g.
+  `chana-masala@6`); "as written" is a valid answer and becomes plain `slug`.
 - Run the script and report its pick. Don't override it with your own preference, since that
   would break determinism. If the user rejects the pick, re-run with `--exclude-recipe` or
   `--exclude-cuisine` and say what changed.
