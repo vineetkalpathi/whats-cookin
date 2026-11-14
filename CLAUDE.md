@@ -10,6 +10,7 @@ Skills follow the Agent Skills spec ([docs/agent-skills-specification.md](docs/a
   - `raw/`: immutable sources. Read them, never edit them
   - `wiki/`: agent-maintained pages (recipes, ingredients, equipment, techniques, cuisines, stores, sources, analyses) plus `index.md`, `log.md`, `overview.md`
   - `meals.md`: meal history (for recipe rotation)
+  - `inbox.md`: queue of manual steps: sources that couldn't be captured, dishes that need a first draft
   - `lists/`: generated grocery lists
 - `skills/`: Agent Skills (`.claude/skills` symlinks here)
   - `kitchen-wiki`: capture / ingest / query / lint. **Owns the schema:** `skills/kitchen-wiki/references/schema.md`

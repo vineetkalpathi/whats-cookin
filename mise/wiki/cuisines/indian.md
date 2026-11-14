@@ -8,16 +8,28 @@ spice_profile:
   - "[[ground-cumin]]"
   - "[[asafoetida]]"
   - "[[garam-masala]]"
+  - "[[ground-turmeric]]"
+  - "[[ground-coriander]]"
+  - "[[kashmiri-chili-powder]]"
+  - "[[kasoori-methi]]"
+  - "[[bay-leaf]]"
+  - "[[chana-masala-powder]]"
 common_ingredients:
   - "[[onion]]"
   - "[[garlic]]"
   - "[[ginger]]"
   - "[[chickpeas]]"
   - "[[cilantro]]"
+  - "[[ghee]]"
+  - "[[dried-chickpeas]]"
+  - "[[green-chili]]"
 recipes:
   - "[[chana-masala]]"
+  - "[[instant-pot-chana-masala]]"
 tags: [seed]
-sources: []
+sources:
+  - "[[traditional-chana-masala-recipe-chole]]"
+  - "[[instant-pot-chana-masala-punjabi-chole]]"
 updated: 2026-11-14
 ---
 # Indian
@@ -28,6 +40,7 @@ A family of regional cuisines (Punjabi, Bengali, Gujarati, South Indian, and mor
 - **Tadka / tempering**: whole spices (cumin, mustard seed, dried chile, curry leaf, asafoetida) bloomed in hot ghee or oil, used at the start or poured over as a finish. See [[blooming-spices]].
 - **Masala base (North)**: [[onion]] browned deeply, then [[ginger]] and [[garlic]], then tomato, cooked until the oil separates.
 - **Layered spicing**: whole spices early, ground spices in the middle, and garam masala plus an acid (lime, amchur) at the end.
+- **Punjabi chole, two ways** (both per Ministry of Curry): [[chana-masala]] browns onions with a bay leaf in ghee, cooks the tomato down, then seasons with a chana masala blend and finishes with kasoori methi; chickpeas are cooked separately with a tea bag for color. [[instant-pot-chana-masala]] starts with a cumin tadka, pressure-cooks the chickpeas in the onion and ground-spice masala, and adds fresh tomato and garam masala at the end. (per [[traditional-chana-masala-recipe-chole]], [[instant-pot-chana-masala-punjabi-chole]])
 
 ## Spice profile
 | Spice | Form | How it's used |
@@ -36,16 +49,23 @@ A family of regional cuisines (Punjabi, Bengali, Gujarati, South Indian, and mor
 | [[ground-cumin]] | ground | in the masala with the other ground spices. Toasted for raita and chaat |
 | [[asafoetida]] | ground | a pinch in hot fat. Savory and allium-like. Central in dals |
 | [[garam-masala]] | ground blend | finishing warmth, added near the end |
-| turmeric, coriander, mustard seed, Kashmiri chile, cardamom | — | *no pages yet. Create them as recipes call for them* |
+| [[ground-coriander]] | ground | the bulk spice of a masala (a tablespoon per pot) |
+| [[ground-turmeric]] | ground | a pinch (¼ tsp) with the other ground spices, for color and earthiness |
+| [[kashmiri-chili-powder]] | ground | deep red color with mild heat |
+| [[bay-leaf]] | whole | fried in ghee with the onions (tej patta) |
+| [[kasoori-methi]] | dried leaf | crushed in at the end for a savory, maple-like finish |
+| [[chana-masala-powder]] | ground blend | the main seasoning of restaurant-style chole; tangy (amchur, anardana) |
+| mustard seed, cardamom | — | *no pages yet. Create them as recipes call for them* |
 
 ## Common ingredients
-- **Aromatics:** [[onion]], [[garlic]], [[ginger]], green chile
-- **Legumes:** [[chickpeas]], lentils (dal)
+- **Aromatics:** [[onion]], [[garlic]], [[ginger]], [[green-chili]]
+- **Legumes:** [[chickpeas]] (canned), [[dried-chickpeas]], lentils (dal)
 - **Herbs & finishes:** [[cilantro]], lime, yogurt
-- **Fats:** ghee, [[neutral-oil]]
+- **Fats:** [[ghee]], [[neutral-oil]]
 
 ## Pantry starter kit
 Whole cumin, ground turmeric, ground coriander, Kashmiri chile powder, garam masala, asafoetida, plus onions, ginger, garlic, canned tomatoes, and chickpeas.
 
 ## Recipes
 - [[chana-masala]]
+- [[instant-pot-chana-masala]]

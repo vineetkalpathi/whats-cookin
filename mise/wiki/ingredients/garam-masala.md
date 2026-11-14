@@ -8,7 +8,7 @@ staple: false
 cuisines:
   - "[[indian]]"
 used_in:
-  - "[[chana-masala]]"
+  - "[[instant-pot-chana-masala]]"
 find_at: []
 substitutes:
   - "curry powder: 1:1, different (turmeric-forward), acceptable in a pinch (no page yet)"
@@ -26,4 +26,4 @@ A North Indian warm-spice blend: typically coriander, cumin, cardamom, cinnamon,
 - curry powder: 1:1, different (turmeric-forward), acceptable in a pinch (no page yet)
 
 ## Used in
-- [[chana-masala]]
+- [[instant-pot-chana-masala]]

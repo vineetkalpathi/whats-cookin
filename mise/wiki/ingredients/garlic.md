@@ -13,9 +13,11 @@ used_in:
   - "[[chana-masala]]"
   - "[[pasta-aglio-e-olio]]"
   - "[[black-bean-tacos]]"
+  - "[[instant-pot-chana-masala]]"
+  - "[[thai-tofu-salad]]"
 find_at: []
 substitutes:
-  - "garlic powder: 1/8 tsp per clove, for long-cooked dishes only"
+  - "[[garlic-powder]]: 1/8 tsp per clove, for long-cooked dishes only"
 tags: [seed]
 sources: []
 updated: 2026-11-14
@@ -27,9 +29,11 @@ The more finely garlic is cut, the sharper it gets: slices stay sweet, a micropl
 **Cuisines:** [[indian]], [[italian]], [[mexican]]
 
 ## Substitutes
-- garlic powder: 1/8 tsp per clove, for long-cooked dishes only
+- [[garlic-powder]]: 1/8 tsp per clove, for long-cooked dishes only
 
 ## Used in
 - [[chana-masala]]
 - [[pasta-aglio-e-olio]]
 - [[black-bean-tacos]]
+- [[instant-pot-chana-masala]]
+- [[thai-tofu-salad]]

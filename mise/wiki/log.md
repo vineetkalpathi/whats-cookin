@@ -31,3 +31,27 @@ Last entries: `grep "^## \[" mise/wiki/log.md | tail -5`
 ## [2026-11-14] edit | schema: clarify ghee/butter and ambiguous aliases
 - Rule: only forms made while cooking stay one page; items sold and stored separately (ghee vs butter) are separate pages. Aliases must be unambiguous.
 - [[cilantro]]: alias `dhania` changed to `hara dhania` (plain dhania also means ground coriander).
+
+## [2026-11-14] ingest | Recipe book: 4 linked recipes (batch)
+From the user's recipe book note, linked recipes only. Unlinked house recipes and Amma's recipes deferred by the user. Shakshuka (themediterraneandish.com) and Instant Pot Mexican rice (tastesbetterfromscratch.com) **not captured**: HTTP 403 from capture.py and web fetch; waiting on a Web Clipper clip or paste.
+- Raw: `2026-11-14-thai-beef-salad.md`, `2026-11-14-traditional-chana-masala-recipe-chole.md`, `2026-11-14-instant-pot-chana-masala-punjabi-chole.md`, `2026-11-14-creamy-udon-noodles-with-tofu-high-protein.md`
+- Sources created: [[thai-beef-salad]], [[traditional-chana-masala-recipe-chole]], [[instant-pot-chana-masala-punjabi-chole]], [[creamy-udon-noodles-with-tofu-high-protein]]
+- Recipes created: [[thai-tofu-salad]] (user makes it with tofu instead of beef), [[instant-pot-chana-masala]], [[creamy-udon-noodles]]. Recipe replaced: [[chana-masala]] (seed version replaced with the sourced traditional recipe; seed tag removed).
+- Cuisines created: [[thai]], [[japanese]]. Updated: [[indian]] (spice profile, flavor principles, recipes).
+- Ingredients created (34): [[dried-chickpeas]], [[black-tea]], [[ghee]], [[bay-leaf]], [[green-chili]], [[roma-tomato]], [[chana-masala-powder]], [[ground-turmeric]], [[kashmiri-chili-powder]], [[kasoori-methi]], [[ground-coriander]], [[thai-chili]], [[sugar]], [[fish-sauce]], [[extra-firm-tofu]], [[black-pepper]], [[mixed-greens]], [[cherry-tomatoes]], [[red-onion]], [[cucumber]], [[mint]], [[peanuts]], [[silken-tofu]], [[soy-sauce]], [[rice-vinegar]], [[chili-crisp]], [[dark-soy-sauce]], [[tomato-paste]], [[nutritional-yeast]], [[garlic-powder]], [[smoked-paprika]], [[udon-noodles]], [[scallion]], [[sesame-seeds]]
+- Ingredients updated: [[onion]], [[garlic]], [[ginger]], [[kosher-salt]], [[cilantro]], [[cumin-seeds]], [[garam-masala]], [[lime]], [[neutral-oil]], [[chickpeas]]; back-references to the old seed chana-masala removed from [[asafoetida]], [[crushed-tomatoes]].
+- Equipment created: [[instant-pot]] (owned), [[mortar-and-pestle]], [[blender]] (ownership unknown). Updated: [[skillet]], [[chefs-knife]], [[dutch-oven]].
+- Techniques created: [[pressure-cooking]], [[searing]]. Updated: [[blooming-spices]].
+- Stores updated: [[indian-grocery]] (stocks), [[trader-joes]] (typically doesn't stock) for [[chana-masala-powder]], [[kashmiri-chili-powder]], [[kasoori-methi]].
+- Updated [[overview]] and the index.
+
+## [2026-11-14] edit | user preferences: equipment, chole, fish sauce
+- User statements: owns a blender, doesn't own a mortar and pestle; considers chole and chana masala the same dish but keeps both recipes for now; replaces fish sauce.
+- [[blender]] `owned: true`, [[mortar-and-pestle]] `owned: false`.
+- [[thai-tofu-salad]]: [[fish-sauce]] -> [[soy-sauce]] (now vegan), dressing method uses the knife paste instead of the mortar.
+- Updated [[fish-sauce]] (user note, vegan fish sauce substitute), [[soy-sauce]], [[overview]], and the index.
+
+## [2026-11-14] edit | schema: inbox for manual steps
+- Added `mise/inbox.md` (outside wiki/, like meals.md): `## Needs capture` for sources the capture fallback order couldn't get, `## Needs a draft` for dishes the user cooks without a written recipe. Done items are checked off with a link to the result.
+- kitchen-wiki SKILL.md (ingest), references/capture.md (fallback table, PDFs), schema.md (vault layout), and CLAUDE.md updated.
+- Seeded with shakshuka, instant-pot-mexican-rice, Amma's recipes (capture) and chili, bean-filling, kimchi-fried-rice, veggie-pasta, shawarma-tofu (draft). Updated [[overview]].

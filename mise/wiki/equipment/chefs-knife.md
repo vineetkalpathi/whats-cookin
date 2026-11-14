@@ -5,8 +5,8 @@ owned: true
 techniques: []
 substitutes: []
 used_in:
-  - "[[chana-masala]]"
   - "[[pasta-aglio-e-olio]]"
+  - "[[thai-tofu-salad]]"
 tags: [seed]
 sources: []
 updated: 2026-11-14

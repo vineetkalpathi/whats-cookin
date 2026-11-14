@@ -11,6 +11,7 @@ cuisines:
 used_in:
   - "[[chana-masala]]"
   - "[[black-bean-tacos]]"
+  - "[[instant-pot-chana-masala]]"
 find_at: []
 substitutes:
   - "shallot: 3–4 shallots per onion, sweeter (no page yet)"
@@ -30,3 +31,4 @@ Yellow onions are the all-purpose default. White onions are crisper and sharper,
 ## Used in
 - [[chana-masala]]
 - [[black-bean-tacos]]
+- [[instant-pot-chana-masala]]

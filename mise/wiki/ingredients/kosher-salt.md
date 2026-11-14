@@ -10,6 +10,8 @@ used_in:
   - "[[chana-masala]]"
   - "[[pasta-aglio-e-olio]]"
   - "[[black-bean-tacos]]"
+  - "[[instant-pot-chana-masala]]"
+  - "[[thai-tofu-salad]]"
 find_at: []
 substitutes:
   - "table salt: about half the volume (Diamond Crystal) or 3/4 (Morton), it's denser"
@@ -29,3 +31,5 @@ Coarse salt that's easy to pinch. **Brands differ in density:** Diamond Crystal 
 - [[chana-masala]]
 - [[pasta-aglio-e-olio]]
 - [[black-bean-tacos]]
+- [[instant-pot-chana-masala]]
+- [[thai-tofu-salad]]

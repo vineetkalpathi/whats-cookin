@@ -6,8 +6,7 @@ techniques:
   - "[[blooming-spices]]"
 substitutes:
   - "[[skillet]]: deep, heavy, lidded skillet for smaller batches"
-used_in:
-  - "[[chana-masala]]"
+used_in: []
 tags: [seed]
 sources: []
 updated: 2026-11-14

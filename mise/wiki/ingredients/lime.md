@@ -7,9 +7,10 @@ availability: common
 staple: false
 cuisines:
   - "[[mexican]]"
+  - "[[thai]]"
 used_in:
-  - "[[chana-masala]]"
   - "[[black-bean-tacos]]"
+  - "[[thai-tofu-salad]]"
 find_at: []
 substitutes:
   - "lemon: 1:1 juice, less floral (no page yet)"
@@ -21,11 +22,11 @@ updated: 2026-11-14
 
 Pick limes that are heavy for their size with a little give. A lime yields about 2 tbsp of juice. Roll it on the counter before juicing.
 
-**Cuisines:** [[mexican]]
+**Cuisines:** [[mexican]], [[thai]]
 
 ## Substitutes
 - lemon: 1:1 juice, less floral (no page yet)
 
 ## Used in
-- [[chana-masala]]
 - [[black-bean-tacos]]
+- [[thai-tofu-salad]]

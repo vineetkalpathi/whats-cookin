@@ -6,6 +6,9 @@ location:
 stocked: []
 not_stocked:
   - "[[asafoetida]]"
+  - "[[chana-masala-powder]]"
+  - "[[kashmiri-chili-powder]]"
+  - "[[kasoori-methi]]"
 tags: [seed]
 sources: []
 updated: 2026-11-14

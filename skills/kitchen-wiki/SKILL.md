@@ -48,6 +48,13 @@ bookkeeping.
 
 ### Ingest (a new source)
 
+**Inbox.** `mise/inbox.md` queues work that needs the user: sources that couldn't be captured
+(`## Needs capture`) and dishes the user cooks without a written recipe (`## Needs a draft`).
+At the start of an ingest, mention open items in one line. Add a dish to `## Needs a draft` when
+the user mentions one they make without a recipe. When a clip, paste, file, or draft arrives for an
+entry, ingest it and check the entry off with a link to the result (`→ [[slug]] (date)`). Drafts
+are captured with `capture.py - --stdin --kind note`.
+
 1. **Capture first, if needed.** If the user gave a link, a file path, or pasted text, save it to
    `mise/raw/` before anything else:
    ```bash
@@ -55,7 +62,8 @@ bookkeeping.
    ```
    **Never give up on a link.** If the script exits with an error code, follow the fallback
    order in [the capture reference](references/capture.md), and only ask the user to paste or
-   clip as the last step. Exit code 5 means the source is already in `raw/`: ingest that file
+   clip as the last step. When it comes to that, also add the source to `mise/inbox.md` under
+   `## Needs capture`, so it isn't lost if the user can't do it right away. Exit code 5 means the source is already in `raw/`: ingest that file
    (or tell the user it's already in the wiki) instead of capturing it again. If the source is
    already in `raw/` (clipped or dropped there), skip this step.
 2. **Read the capture.** For PDFs (especially multi-recipe ones) and scans, follow the PDF section

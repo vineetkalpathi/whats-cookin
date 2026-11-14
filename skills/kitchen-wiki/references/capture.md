@@ -33,9 +33,9 @@ Run `python3 skills/kitchen-wiki/scripts/capture.py <url> --json`, then go by th
 | 0 | captured | ingest `path` |
 | 2 | page has no structured recipe data (blogs, technique articles, news) | **web-fetch the page** and ask for the full article text: the recipe or technique content, with ingredient amounts and steps verbatim, and no ads or comments. Pipe that into `capture.py <url> --stdin --via web-fetch --title "<title>"` |
 | 3 | `yt-dlp` missing | tell the user once (`brew install yt-dlp`). For now, web-fetch the YouTube page for the title and description, capture with `--stdin --kind youtube --via web-fetch`, and say the transcript is missing |
-| 4 | fetch failed (403/429, timeout, login) | try a **web fetch** (it often gets through when the script can't). If that fails too, the page is probably paywalled or needs a login: **ask the user** to clip it with Web Clipper (see below) or paste the text |
+| 4 | fetch failed (403/429, timeout, login) | try a **web fetch** (it often gets through when the script can't). If that fails too, the page is probably paywalled or needs a login: **ask the user** to clip it with Web Clipper (see below) or paste the text, and add it to `mise/inbox.md` (`## Needs capture`) |
 | 5 | already captured | don't re-capture; ingest the existing `path` or check the wiki's `sources/` |
-| 6 | Instagram / TikTok / Facebook | **ask the user to paste the caption** (and describe anything that's only in the video), then `capture.py <url> --stdin` |
+| 6 | Instagram / TikTok / Facebook | **ask the user to paste the caption** (and describe anything that's only in the video), then `capture.py <url> --stdin`. If they can't right away, add it to `mise/inbox.md` |
 
 Rules for `--stdin` captures:
 - Pass the text **as the source gives it**: don't summarize, normalize, or fill gaps in this
@@ -59,7 +59,7 @@ that too and treat it as the authoritative ingredient list.
 **Instagram / TikTok.** Manual capture only (exit code 6). The caption usually has the recipe.
 If the recipe is only in the video, the user's notes are the source.
 
-**PDFs** (from Google Drive or anywhere): ask for the **local path** (e.g. from the Google Drive
+**PDFs** (from Google Drive or anywhere): ask for the **local path** (queue it in `mise/inbox.md` if the user will provide it later) (e.g. from the Google Drive
 for desktop folder). Private Drive share links need a login, so the script can't fetch them.
 `capture.py <path>` copies the PDF into `raw/` and writes a capture note with an approximate
 `pages` count.

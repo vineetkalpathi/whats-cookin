@@ -7,8 +7,9 @@ availability: common
 staple: true
 cuisines: []
 used_in:
-  - "[[chana-masala]]"
   - "[[black-bean-tacos]]"
+  - "[[thai-tofu-salad]]"
+  - "[[creamy-udon-noodles]]"
 find_at: []
 substitutes:
   - "[[olive-oil]]: 1:1 where its flavor is welcome. Ghee is great in Indian dishes"
@@ -25,5 +26,6 @@ Any high smoke point, flavorless oil: canola, vegetable, grapeseed, avocado, pea
 - [[olive-oil]]: 1:1 where its flavor is welcome. Ghee is great in Indian dishes
 
 ## Used in
-- [[chana-masala]]
 - [[black-bean-tacos]]
+- [[thai-tofu-salad]]
+- [[creamy-udon-noodles]]

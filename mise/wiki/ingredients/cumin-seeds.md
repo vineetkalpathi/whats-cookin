@@ -8,7 +8,7 @@ staple: true
 cuisines:
   - "[[indian]]"
 used_in:
-  - "[[chana-masala]]"
+  - "[[instant-pot-chana-masala]]"
 find_at: []
 substitutes:
   - "[[ground-cumin]]: about 1:1 by volume, but it can't be bloomed whole. Add it after the onions instead, or it scorches"
@@ -28,4 +28,4 @@ Whole cumin: warm, earthy, slightly bitter. The seeds are usually bloomed in hot
 - caraway seeds: 1/2 the amount, related but more anise-like (no page yet)
 
 ## Used in
-- [[chana-masala]]
+- [[instant-pot-chana-masala]]

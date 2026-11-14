@@ -7,8 +7,7 @@ availability: specialty
 staple: false
 cuisines:
   - "[[indian]]"
-used_in:
-  - "[[chana-masala]]"
+used_in: []
 find_at:
   - "[[indian-grocery]]"
 substitutes:
@@ -27,4 +26,4 @@ Dried resin of a giant fennel, sold ground (usually cut with flour). Pungent raw
 - [[garlic]]: a little extra garlic + onion approximates the savory, allium note
 
 ## Used in
-- [[chana-masala]]
+- *(none yet)*

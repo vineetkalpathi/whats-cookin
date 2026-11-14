@@ -4,10 +4,12 @@ title: Blooming Spices
 equipment:
   - "[[dutch-oven]]"
   - "[[skillet]]"
-related: []
+related:
+  - "[[pressure-cooking]]"
 used_in:
   - "[[chana-masala]]"
   - "[[black-bean-tacos]]"
+  - "[[instant-pot-chana-masala]]"
 tags: [seed]
 sources: []
 updated: 2026-11-14

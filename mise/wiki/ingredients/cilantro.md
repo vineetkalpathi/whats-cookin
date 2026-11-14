@@ -8,9 +8,13 @@ staple: false
 cuisines:
   - "[[indian]]"
   - "[[mexican]]"
+  - "[[thai]]"
 used_in:
   - "[[chana-masala]]"
   - "[[black-bean-tacos]]"
+  - "[[instant-pot-chana-masala]]"
+  - "[[thai-tofu-salad]]"
+  - "[[creamy-udon-noodles]]"
 find_at: []
 substitutes:
   - "[[parsley]]: 1:1 for color and freshness, but none of the citrusy flavor"
@@ -22,7 +26,7 @@ updated: 2026-11-14
 
 Bright, citrusy herb. The tender stems are flavorful, so chop them in. Some people taste it as soapy (a genetic trait). Store it like flowers: stems in water, loosely covered, in the fridge.
 
-**Cuisines:** [[indian]], [[mexican]]
+**Cuisines:** [[indian]], [[mexican]], [[thai]]
 
 ## Substitutes
 - [[parsley]]: 1:1 for color and freshness, but none of the citrusy flavor
@@ -30,3 +34,6 @@ Bright, citrusy herb. The tender stems are flavorful, so chop them in. Some peop
 ## Used in
 - [[chana-masala]]
 - [[black-bean-tacos]]
+- [[instant-pot-chana-masala]]
+- [[thai-tofu-salad]]
+- [[creamy-udon-noodles]]

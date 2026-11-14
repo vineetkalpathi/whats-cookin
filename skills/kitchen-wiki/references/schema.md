@@ -19,6 +19,7 @@ mise/                      ← open this folder as the Obsidian vault
 │   ├── sources/           one summary page per raw source
 │   └── analyses/          query answers worth keeping (comparisons, plans)
 ├── meals.md               meal history (what was eaten when), used by suggest-recipe
+├── inbox.md               queue of manual steps: sources that need capture, dishes that need a draft
 └── lists/                 generated grocery lists
 ```
 

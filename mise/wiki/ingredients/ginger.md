@@ -9,6 +9,7 @@ cuisines:
   - "[[indian]]"
 used_in:
   - "[[chana-masala]]"
+  - "[[instant-pot-chana-masala]]"
 find_at: []
 substitutes:
   - "ground ginger: 1/4 tsp per 1 tbsp fresh, much less bright"
@@ -27,3 +28,4 @@ Fresh rhizome. Scrape the skin off with a spoon and grate it on a microplane. It
 
 ## Used in
 - [[chana-masala]]
+- [[instant-pot-chana-masala]]

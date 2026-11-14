@@ -9,6 +9,9 @@ stocked:
   - "[[cumin-seeds]]"
   - "[[ground-cumin]]"
   - "[[chickpeas]]"
+  - "[[chana-masala-powder]]"
+  - "[[kashmiri-chili-powder]]"
+  - "[[kasoori-methi]]"
 not_stocked: []
 tags: [seed]
 sources: []

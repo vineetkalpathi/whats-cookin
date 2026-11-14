@@ -6,8 +6,7 @@ category: canned-jarred
 availability: common
 staple: true
 cuisines: []
-used_in:
-  - "[[chana-masala]]"
+used_in: []
 find_at: []
 substitutes:
   - "fresh tomatoes: about 1.5 lb chopped per 28 oz can, cooked down longer (no page yet)"
@@ -24,4 +23,4 @@ Canned tomatoes crushed into a thick purée. Standard cans are 14.5 oz and 28 oz
 - fresh tomatoes: about 1.5 lb chopped per 28 oz can, cooked down longer (no page yet)
 
 ## Used in
-- [[chana-masala]]
+- *(none yet)*

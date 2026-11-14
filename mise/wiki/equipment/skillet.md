@@ -6,11 +6,15 @@ techniques:
   - "[[blooming-spices]]"
   - "[[emulsifying-pasta-water]]"
   - "[[charring-tortillas]]"
+  - "[[searing]]"
 substitutes:
   - "[[dutch-oven]]: for anything saucy. Worse for tossing pasta"
 used_in:
   - "[[pasta-aglio-e-olio]]"
   - "[[black-bean-tacos]]"
+  - "[[chana-masala]]"
+  - "[[thai-tofu-salad]]"
+  - "[[creamy-udon-noodles]]"
 tags: [seed]
 sources: []
 updated: 2026-11-14
