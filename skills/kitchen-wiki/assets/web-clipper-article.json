@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Kitchen article",
+  "behavior": "create",
+  "noteContentFormat": "# {{title}}\n\n<{{url}}>\n\n{{content}}\n",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{title}}",
+      "type": "text"
+    },
+    {
+      "name": "kind",
+      "value": "website",
+      "type": "text"
+    },
+    {
+      "name": "url",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "site",
+      "value": "{{site}}",
+      "type": "text"
+    },
+    {
+      "name": "author",
+      "value": "{{author}}",
+      "type": "text"
+    },
+    {
+      "name": "published",
+      "value": "{{published|date:\"YYYY-MM-DD\"}}",
+      "type": "date"
+    },
+    {
+      "name": "captured",
+      "value": "{{date|date:\"YYYY-MM-DD\"}}",
+      "type": "date"
+    },
+    {
+      "name": "via",
+      "value": "clipper",
+      "type": "text"
+    }
+  ],
+  "triggers": [],
+  "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{title|kebab|safe_name}}",
+  "path": "raw"
+}

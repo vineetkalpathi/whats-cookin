@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Kitchen recipe",
+  "behavior": "create",
+  "noteContentFormat": "# {{schema:@Recipe:name}}\n\n{{schema:@Recipe:description}}\n\n## Ingredients\n\n{{schema:recipeIngredient|list}}\n\n## Instructions\n\n{{schema:recipeInstructions[*].text|list:numbered}}\n\n## Clipped page\n\n<{{url}}>\n",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{title}}",
+      "type": "text"
+    },
+    {
+      "name": "kind",
+      "value": "website",
+      "type": "text"
+    },
+    {
+      "name": "url",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "site",
+      "value": "{{site}}",
+      "type": "text"
+    },
+    {
+      "name": "author",
+      "value": "{{schema:author[*].name|join}}",
+      "type": "text"
+    },
+    {
+      "name": "published",
+      "value": "{{published|date:\"YYYY-MM-DD\"}}",
+      "type": "date"
+    },
+    {
+      "name": "captured",
+      "value": "{{date|date:\"YYYY-MM-DD\"}}",
+      "type": "date"
+    },
+    {
+      "name": "via",
+      "value": "clipper",
+      "type": "text"
+    },
+    {
+      "name": "yield",
+      "value": "{{schema:@Recipe:recipeYield}}",
+      "type": "text"
+    },
+    {
+      "name": "total_time",
+      "value": "{{schema:@Recipe:totalTime}}",
+      "type": "text"
+    },
+    {
+      "name": "recipe_cuisine",
+      "value": "{{schema:recipeCuisine}}",
+      "type": "text"
+    },
+    {
+      "name": "image",
+      "value": "{{image}}",
+      "type": "text"
+    }
+  ],
+  "triggers": [
+    "schema:@Recipe"
+  ],
+  "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{title|kebab|safe_name}}",
+  "path": "raw"
+}

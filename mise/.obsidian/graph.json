@@ -1,0 +1,72 @@
+{
+  "collapse-filter": true,
+  "search": "path:wiki -file:index -file:log",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:wiki/recipes",
+      "color": {
+        "a": 1,
+        "rgb": 14964526
+      }
+    },
+    {
+      "query": "path:wiki/ingredients",
+      "color": {
+        "a": 1,
+        "rgb": 7778369
+      }
+    },
+    {
+      "query": "path:wiki/cuisines",
+      "color": {
+        "a": 1,
+        "rgb": 10182117
+      }
+    },
+    {
+      "query": "path:wiki/techniques",
+      "color": {
+        "a": 1,
+        "rgb": 1556155
+      }
+    },
+    {
+      "query": "path:wiki/equipment",
+      "color": {
+        "a": 1,
+        "rgb": 16763156
+      }
+    },
+    {
+      "query": "path:wiki/stores",
+      "color": {
+        "a": 1,
+        "rgb": 8947848
+      }
+    },
+    {
+      "query": "path:wiki/sources",
+      "color": {
+        "a": 1,
+        "rgb": 3835647
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1,
+  "close": false
+}

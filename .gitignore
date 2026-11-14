@@ -1,0 +1,9 @@
+# Obsidian per-user state (keep app.json / graph.json, which configure the vault)
+mise/.obsidian/workspace*.json
+mise/.obsidian/cache
+mise/.obsidian/plugins/
+mise/.obsidian/themes/
+mise/.trash/
+.DS_Store
+__pycache__/
+*.pyc
