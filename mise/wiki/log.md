@@ -23,3 +23,7 @@ Last entries: `grep "^## \[" mise/wiki/log.md | tail -5`
 ## [2026-11-14] edit | schema: servings are first-class
 - Recipes require `servings` (optional `yield_unit`). grocery_list.py takes `slug`, `slug@N`, or `slug:X` and states servings for every recipe; fractional count amounts are flagged. suggest.py shows servings as written. Ingest records servings from the source and keeps scaling advice under `### Scaling`.
 - grocery_list.py: shared items show each recipe's share (scaled amount + prep note); JSON items carry `by_recipe`.
+
+## [2026-11-14] edit | split cumin -> cumin-seeds, ground-cumin
+- Schema rule: one ingredient page per thing you buy (whole vs ground spices, fresh vs dried herbs are separate pages; prep forms stay one page).
+- Created [[cumin-seeds]], [[ground-cumin]] and deleted cumin. Relinked [[chana-masala]], [[black-bean-tacos]], [[indian]], [[mexican]], [[indian-grocery]], index, and overview.

@@ -12,7 +12,7 @@ ingredients:
   - "1 tbsp [[neutral-oil]]"
   - "1 small [[onion]], diced, plus some raw for garnish"
   - "2 clove [[garlic]], minced"
-  - "1 tsp [[cumin]], ground"
+  - "1 tsp [[ground-cumin]]"
   - "2 can [[black-beans]], drained, liquid reserved"
   - "12 [[corn-tortillas]]"
   - "2 [[lime]], 1 juiced, 1 in wedges"
@@ -36,7 +36,7 @@ Smashed, cumin-scented black beans in charred corn tortillas, with raw onion, ci
 - 1 tbsp [[neutral-oil]]
 - 1 small [[onion]], diced, plus some raw for garnish
 - 2 cloves [[garlic]], minced
-- 1 tsp ground [[cumin]]
+- 1 tsp [[ground-cumin]]
 - 2 cans [[black-beans]], drained (keep the liquid)
 - 12 [[corn-tortillas]]
 - 2 [[lime]]s, one juiced and one cut into wedges

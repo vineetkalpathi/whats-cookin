@@ -23,10 +23,11 @@ Every wiki page, by type. Maintained by the agent: one line per page, alphabetic
 - [[cilantro]] - Citrusy herb, stems included
 - [[corn-tortillas]] - Nixtamalized masa flatbreads
 - [[crushed-tomatoes]] - Canned tomato purée · staple
-- [[cumin]] - Warm, earthy seed. Indian & Mexican · staple
+- [[cumin-seeds]] - Whole cumin. Bloomed in fat for tadka · indian · staple
 - [[garam-masala]] - North Indian warm-spice finishing blend
 - [[garlic]] - Allium. The finer the cut, the sharper the flavor · staple
 - [[ginger]] - Fresh rhizome. Grate it frozen
+- [[ground-cumin]] - Pre-ground cumin. Stales fast, burns fast · indian, mexican · staple
 - [[kosher-salt]] - Coarse salt. Brand density varies · staple
 - [[lime]] - About 2 tbsp juice each
 - [[neutral-oil]] - High smoke point, flavorless · staple

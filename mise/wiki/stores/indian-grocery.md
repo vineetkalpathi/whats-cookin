@@ -6,7 +6,8 @@ location:
 stocked:
   - "[[asafoetida]]"
   - "[[garam-masala]]"
-  - "[[cumin]]"
+  - "[[cumin-seeds]]"
+  - "[[ground-cumin]]"
   - "[[chickpeas]]"
 not_stocked: []
 tags: [seed]

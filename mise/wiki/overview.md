@@ -8,7 +8,7 @@ The evolving big picture of this kitchen: what gets cooked, recurring themes, an
 
 ## Current state
 - 3 cuisines ([[indian]], [[italian]], [[mexican]]), with one seed recipe each, all vegetarian weeknight mains.
-- Shared backbone: [[garlic]], [[onion]], and [[cumin]] appear across cuisines. [[blooming-spices]] is the most-used technique.
+- Shared backbone: [[garlic]], [[onion]], and cumin ([[cumin-seeds]], [[ground-cumin]]) appear across cuisines. [[blooming-spices]] is the most-used technique.
 - All seed content is general knowledge (tagged `seed`) and has no ingested sources yet.
 
 ## Gaps & next questions

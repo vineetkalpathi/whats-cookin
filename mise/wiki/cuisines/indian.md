@@ -4,7 +4,8 @@ title: Indian
 region: South Asia
 parent:
 spice_profile:
-  - "[[cumin]]"
+  - "[[cumin-seeds]]"
+  - "[[ground-cumin]]"
   - "[[asafoetida]]"
   - "[[garam-masala]]"
 common_ingredients:
@@ -31,7 +32,8 @@ A family of regional cuisines (Punjabi, Bengali, Gujarati, South Indian, and mor
 ## Spice profile
 | Spice | Form | How it's used |
 |---|---|---|
-| [[cumin]] | whole seed / ground | bloomed in fat to start a dish, or toasted and ground for raita and chaat |
+| [[cumin-seeds]] | whole | bloomed in fat to start a dish (tadka), or dry-toasted and ground fresh |
+| [[ground-cumin]] | ground | in the masala with the other ground spices. Toasted for raita and chaat |
 | [[asafoetida]] | ground | a pinch in hot fat. Savory and allium-like. Central in dals |
 | [[garam-masala]] | ground blend | finishing warmth, added near the end |
 | turmeric, coriander, mustard seed, Kashmiri chile, cardamom | — | *no pages yet. Create them as recipes call for them* |

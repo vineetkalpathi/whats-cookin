@@ -4,7 +4,7 @@ title: Mexican
 region: North America
 parent:
 spice_profile:
-  - "[[cumin]]"
+  - "[[ground-cumin]]"
 common_ingredients:
   - "[[corn-tortillas]]"
   - "[[black-beans]]"
@@ -31,7 +31,7 @@ Built on corn (nixtamalized masa), beans, and chiles, with strong regional diffe
 ## Spice profile
 | Spice | Form | How it's used |
 |---|---|---|
-| [[cumin]] | ground / whole | used with restraint, more in northern and Tex-Mex cooking |
+| [[ground-cumin]] | ground | used with restraint, more in northern and Tex-Mex cooking |
 | Mexican oregano, dried chiles, achiote, cinnamon (canela), epazote | — | *no pages yet* |
 
 ## Common ingredients

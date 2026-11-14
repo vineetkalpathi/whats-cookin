@@ -30,7 +30,10 @@ bookkeeping.
    `[[garlic]]` to a recipe means adding that recipe to `garlic.used_in` too.
 3. **Unique slugs across the whole wiki.** Search before creating a page
    (`ls mise/wiki/*/ | grep -i <name>`, and check `aliases:` too) so you don't make duplicates
-   like `scallion` and `green-onion`. Pick one slug and add the others as `aliases`.
+   like `scallion` and `green-onion`. Pick one slug and add the others as `aliases`. The reverse
+   also applies: forms bought separately (whole vs. ground spice, fresh vs. dried herb) are
+   separate pages, not one page with a prep note (schema: "One ingredient page per thing you
+   buy").
 4. **Cite.** Facts that come from a source link to its `sources/` page. If a new source
    contradicts an existing claim, keep both, attribute each one, and add a `> [!warning]
    Conflict` callout. Don't silently overwrite.

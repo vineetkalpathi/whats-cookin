@@ -10,7 +10,7 @@ total_time: 40
 diet: [vegan, gluten-free]
 ingredients:
   - "2 tbsp [[neutral-oil]]"
-  - "1 tsp [[cumin]], whole seeds"
+  - "1 tsp [[cumin-seeds]]"
   - "1/8 tsp [[asafoetida]]"
   - "1 large [[onion]], finely chopped"
   - "4 clove [[garlic]], minced"
@@ -36,7 +36,7 @@ Punjabi-style chickpea curry in a spiced onion-tomato *masala*. A pantry-friendl
 
 ## Ingredients
 - 2 tbsp [[neutral-oil]] (or ghee)
-- 1 tsp whole [[cumin]] seeds
+- 1 tsp [[cumin-seeds]]
 - 1/8 tsp [[asafoetida]]
 - 1 large [[onion]], finely chopped
 - 4 cloves [[garlic]], minced, and 1 inch [[ginger]], grated
