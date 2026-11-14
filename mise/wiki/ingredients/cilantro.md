@@ -1,7 +1,7 @@
 ---
 type: ingredient
 title: Cilantro
-aliases: ["coriander leaves", "dhania"]
+aliases: ["coriander leaves", "hara dhania"]
 category: herbs
 availability: common
 staple: false

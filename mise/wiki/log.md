@@ -27,3 +27,7 @@ Last entries: `grep "^## \[" mise/wiki/log.md | tail -5`
 ## [2026-11-14] edit | split cumin -> cumin-seeds, ground-cumin
 - Schema rule: one ingredient page per thing you buy (whole vs ground spices, fresh vs dried herbs are separate pages; prep forms stay one page).
 - Created [[cumin-seeds]], [[ground-cumin]] and deleted cumin. Relinked [[chana-masala]], [[black-bean-tacos]], [[indian]], [[mexican]], [[indian-grocery]], index, and overview.
+
+## [2026-11-14] edit | schema: clarify ghee/butter and ambiguous aliases
+- Rule: only forms made while cooking stay one page; items sold and stored separately (ghee vs butter) are separate pages. Aliases must be unambiguous.
+- [[cilantro]]: alias `dhania` changed to `hara dhania` (plain dhania also means ground coriander).

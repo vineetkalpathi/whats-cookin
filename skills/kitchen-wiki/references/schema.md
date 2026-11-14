@@ -34,8 +34,12 @@ mise/                      ← open this folder as the Obsidian vault
 - **One ingredient page per thing you buy.** If two forms are bought separately, they get
   separate pages that list each other under `substitutes`: whole vs. ground spices
   (`cumin-seeds` / `ground-cumin`), fresh vs. dried herbs (`oregano` / `dried-oregano`), canned
-  vs. dried beans, fresh vs. powdered ginger. Forms you make from one purchase stay one page
-  with a prep note (`"4 clove [[garlic]], minced"` and `"..., thinly sliced"`). The grocery
+  vs. dried beans, fresh vs. powdered ginger. Forms you make from one purchase *while cooking*
+  stay one page with a prep note (`"4 clove [[garlic]], minced"` and `"..., thinly sliced"`;
+  brown butter is `[[butter]]` plus a technique). Something sold and stored as its own item
+  gets its own page even if it can be made at home: `ghee` is not `butter`. Aliases must not
+  be ambiguous: `dhania` alone also means ground coriander seed, so `cilantro` uses
+  `hara dhania`. The grocery
   list, pantry staples, and store availability all work per page, so this is what keeps them
   accurate.
 
