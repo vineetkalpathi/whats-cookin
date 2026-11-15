@@ -10,12 +10,16 @@ cuisines:
 used_in:
   - "[[chana-masala]]"
   - "[[instant-pot-chana-masala]]"
+  - "[[paneer-kathi-rolls]]"
+  - "[[killu-bonda]]"
+  - "[[thai-curry]]"
+  - "[[thai-coconut-butternut-squash-soup]]"
 find_at: []
 substitutes:
   - "ground ginger: 1/4 tsp per 1 tbsp fresh, much less bright"
 tags: [seed]
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Ginger
 
@@ -29,3 +33,8 @@ Fresh rhizome. Scrape the skin off with a spoon and grate it on a microplane. It
 ## Used in
 - [[chana-masala]]
 - [[instant-pot-chana-masala]]
+- [[paneer-kathi-rolls]]
+- [[killu-bonda]]
+- [[thai-curry]]
+- [[thai-coconut-butternut-squash-soup]]
+

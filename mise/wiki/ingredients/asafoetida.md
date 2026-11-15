@@ -7,14 +7,16 @@ availability: specialty
 staple: false
 cuisines:
   - "[[indian]]"
-used_in: []
+used_in:
+  - "[[yellow-moong-khichdi]]"
+  - "[[killu-bonda]]"
 find_at:
   - "[[indian-grocery]]"
 substitutes:
   - "[[garlic]]: a little extra garlic + onion approximates the savory, allium note"
 tags: [seed]
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Asafoetida
 
@@ -27,3 +29,6 @@ Dried resin of a giant fennel, sold ground (usually cut with flour). Pungent raw
 
 ## Used in
 - *(none yet)*
+- [[yellow-moong-khichdi]]
+- [[killu-bonda]]
+

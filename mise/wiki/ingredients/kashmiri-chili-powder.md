@@ -10,6 +10,7 @@ cuisines:
 used_in:
   - "[[chana-masala]]"
   - "[[instant-pot-chana-masala]]"
+  - "[[paneer-kathi-rolls]]"
 find_at:
   - "[[indian-grocery]]"
 substitutes:
@@ -17,7 +18,7 @@ substitutes:
   - "[[smoked-paprika]]: 1:1, adds smoke"
 tags: []
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Kashmiri Chili Powder
 
@@ -32,3 +33,5 @@ Ground mild red chili prized for deep red color with gentle heat. Not the same a
 ## Used in
 - [[chana-masala]]
 - [[instant-pot-chana-masala]]
+- [[paneer-kathi-rolls]]
+

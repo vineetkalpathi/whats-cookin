@@ -11,12 +11,14 @@ cuisines:
 used_in:
   - "[[black-bean-tacos]]"
   - "[[thai-tofu-salad]]"
+  - "[[thai-coconut-butternut-squash-soup]]"
+  - "[[tex-mex-salad]]"
 find_at: []
 substitutes:
   - "lemon: 1:1 juice, less floral (no page yet)"
 tags: [seed]
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Lime
 
@@ -30,3 +32,6 @@ Pick limes that are heavy for their size with a little give. A lime yields about
 ## Used in
 - [[black-bean-tacos]]
 - [[thai-tofu-salad]]
+- [[thai-coconut-butternut-squash-soup]]
+- [[tex-mex-salad]]
+

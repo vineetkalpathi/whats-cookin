@@ -9,12 +9,13 @@ cuisines:
   - "[[thai]]"
 used_in:
   - "[[thai-tofu-salad]]"
+  - "[[thai-coconut-butternut-squash-soup]]"
 find_at: []
 substitutes:
   - "cashews: 1:1, sweeter (no page yet)"
 tags: []
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Peanuts
 
@@ -27,3 +28,5 @@ Roasted, unsalted peanuts, finely chopped as a crunchy salad topping.
 
 ## Used in
 - [[thai-tofu-salad]]
+- [[thai-coconut-butternut-squash-soup]]
+

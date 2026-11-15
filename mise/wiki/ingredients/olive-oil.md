@@ -7,14 +7,22 @@ availability: common
 staple: true
 cuisines:
   - "[[italian]]"
+  - "[[mediterranean]]"
+  - "[[middle-eastern]]"
 used_in:
   - "[[pasta-aglio-e-olio]]"
+  - "[[shakshuka]]"
+  - "[[borscht]]"
+  - "[[tex-mex-salad]]"
+  - "[[quinoa-salad]]"
+  - "[[pasta-salad]]"
 find_at: []
 substitutes:
   - "[[neutral-oil]]: 1:1 for cooking, loses the fruity, peppery flavor"
 tags: [seed]
-sources: []
-updated: 2026-11-14
+sources:
+  - "[[shakshuka-recipe-mediterranean-dish]]"
+updated: 2026-11-15
 ---
 # Olive Oil
 
@@ -27,3 +35,9 @@ Extra-virgin for flavor and finishing. In [[pasta-aglio-e-olio]] it's the sauce,
 
 ## Used in
 - [[pasta-aglio-e-olio]]
+- [[shakshuka]]
+- [[borscht]]
+- [[tex-mex-salad]]
+- [[quinoa-salad]]
+- [[pasta-salad]]
+

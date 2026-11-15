@@ -14,6 +14,11 @@ spice_profile:
   - "[[kasoori-methi]]"
   - "[[bay-leaf]]"
   - "[[chana-masala-powder]]"
+  - "[[black-mustard-seeds]]"
+  - "[[amchur]]"
+  - "[[coriander-cumin-powder]]"
+  - "[[red-chili-powder]]"
+  - "[[dried-red-chili]]"
 common_ingredients:
   - "[[onion]]"
   - "[[garlic]]"
@@ -23,14 +28,36 @@ common_ingredients:
   - "[[ghee]]"
   - "[[dried-chickpeas]]"
   - "[[green-chili]]"
+  - "[[frozen-peas]]"
+  - "[[yellow-moong-dal]]"
+  - "[[urad-dal]]"
+  - "[[chana-dal]]"
+  - "[[curry-leaves]]"
+  - "[[fenugreek-leaves]]"
+  - "[[tamarind]]"
+  - "[[paneer]]"
+  - "[[plain-yogurt]]"
+  - "[[paratha]]"
+  - "[[naan]]"
+  - "[[idli-batter]]"
+  - "[[green-chutney]]"
+  - "[[sweet-chutney]]"
+  - "[[rava]]"
+  - "[[besan]]"
 recipes:
   - "[[chana-masala]]"
   - "[[instant-pot-chana-masala]]"
+  - "[[yellow-moong-khichdi]]"
+  - "[[paneer-kathi-rolls]]"
+  - "[[methi-lagaan]]"
+  - "[[killu-bonda]]"
+  - "[[onion-tomato-chutney]]"
+  - "[[tomato-soup]]"
 tags: [seed]
 sources:
   - "[[traditional-chana-masala-recipe-chole]]"
   - "[[instant-pot-chana-masala-punjabi-chole]]"
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Indian
 
@@ -69,3 +96,10 @@ Whole cumin, ground turmeric, ground coriander, Kashmiri chile powder, garam mas
 ## Recipes
 - [[chana-masala]]
 - [[instant-pot-chana-masala]]
+- [[yellow-moong-khichdi]]
+- [[paneer-kathi-rolls]]
+- [[methi-lagaan]]
+- [[killu-bonda]]
+- [[onion-tomato-chutney]]
+- [[tomato-soup]]
+

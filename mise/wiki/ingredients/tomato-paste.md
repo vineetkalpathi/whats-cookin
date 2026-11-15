@@ -8,11 +8,12 @@ staple: false
 cuisines: []
 used_in:
   - "[[creamy-udon-noodles]]"
+  - "[[borscht]]"
 find_at: []
 substitutes: []
 tags: []
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Tomato Paste
 
@@ -20,3 +21,5 @@ Concentrated tomato. Tube versions keep well once opened. Burns easily in a glaz
 
 ## Used in
 - [[creamy-udon-noodles]]
+- [[borscht]]
+

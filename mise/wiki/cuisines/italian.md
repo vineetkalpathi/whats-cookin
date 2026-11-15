@@ -11,11 +11,26 @@ common_ingredients:
   - "[[parsley]]"
   - "[[parmesan]]"
   - "[[spaghetti]]"
+  - "[[pasta]]"
+  - "[[pasta-sauce]]"
+  - "[[basil]]"
+  - "[[zucchini]]"
+  - "[[mushroom]]"
+  - "[[broccoli]]"
+  - "[[carrot]]"
+  - "[[onion]]"
+  - "[[tomato]]"
+  - "[[fresh-mozzarella]]"
+  - "[[ciabatta]]"
+  - "[[pesto]]"
 recipes:
   - "[[pasta-aglio-e-olio]]"
+  - "[[veggie-pasta]]"
+  - "[[tomato-mozzarella-panini]]"
 tags: [seed]
-sources: []
-updated: 2026-11-14
+sources:
+  - "[[ammas-pasta-gravy]]"
+updated: 2026-11-15
 ---
 # Italian
 
@@ -44,3 +59,6 @@ Good olive oil, dried pasta, canned whole tomatoes, a wedge of parmesan, garlic,
 
 ## Recipes
 - [[pasta-aglio-e-olio]]
+- [[veggie-pasta]]
+- [[tomato-mozzarella-panini]]
+

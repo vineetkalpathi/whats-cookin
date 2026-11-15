@@ -12,10 +12,26 @@ stocked:
   - "[[chana-masala-powder]]"
   - "[[kashmiri-chili-powder]]"
   - "[[kasoori-methi]]"
+  - "[[yellow-moong-dal]]"
+  - "[[urad-dal]]"
+  - "[[chana-dal]]"
+  - "[[black-mustard-seeds]]"
+  - "[[amchur]]"
+  - "[[curry-leaves]]"
+  - "[[fenugreek-leaves]]"
+  - "[[tamarind]]"
+  - "[[paneer]]"
+  - "[[paratha]]"
+  - "[[idli-batter]]"
+  - "[[green-chutney]]"
+  - "[[sweet-chutney]]"
+  - "[[rava]]"
+  - "[[besan]]"
+  - "[[coriander-cumin-powder]]"
 not_stocked: []
 tags: [seed]
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Indian Grocery (local)
 

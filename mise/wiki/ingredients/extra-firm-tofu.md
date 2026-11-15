@@ -9,13 +9,14 @@ cuisines: []
 used_in:
   - "[[thai-tofu-salad]]"
   - "[[creamy-udon-noodles]]"
+  - "[[thai-curry]]"
 find_at: []
 substitutes:
   - "[[silken-tofu]]: not interchangeable, it won't hold shape"
 tags: []
 sources:
   - "[[creamy-udon-noodles-with-tofu-high-protein]]"
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Extra-Firm Tofu
 
@@ -32,3 +33,5 @@ Pressed block tofu, usually in the refrigerated case near produce. Holds its sha
 ## Used in
 - [[thai-tofu-salad]]
 - [[creamy-udon-noodles]]
+- [[thai-curry]]
+

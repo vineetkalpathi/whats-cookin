@@ -9,12 +9,14 @@ cuisines: []
 used_in:
   - "[[thai-tofu-salad]]"
   - "[[creamy-udon-noodles]]"
+  - "[[methi-lagaan]]"
+  - "[[almond-flour-cake]]"
 find_at: []
 substitutes:
   - "palm sugar: 1:1, rounder caramel note in Thai dressings (no page yet)"
 tags: []
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Sugar
 
@@ -26,3 +28,6 @@ Plain white granulated sugar. In savory cooking it balances acid and salt (Thai 
 ## Used in
 - [[thai-tofu-salad]]
 - [[creamy-udon-noodles]]
+- [[methi-lagaan]]
+- [[almond-flour-cake]]
+
