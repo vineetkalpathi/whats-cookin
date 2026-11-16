@@ -9,13 +9,15 @@ cuisines:
   - "[[indian]]"
 used_in:
   - "[[chana-masala]]"
+  - "[[yellow-moong-khichdi]]"
+  - "[[paneer-kathi-rolls]]"
 find_at:
   - "[[indian-grocery]]"
 substitutes: []
 tags: []
 sources:
   - "[[traditional-chana-masala-recipe-chole]]"
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Kasoori Methi
 
@@ -25,3 +27,6 @@ Dried fenugreek leaves: savory, slightly bitter, maple-like aroma. Crush between
 
 ## Used in
 - [[chana-masala]]
+- [[yellow-moong-khichdi]]
+- [[paneer-kathi-rolls]]
+

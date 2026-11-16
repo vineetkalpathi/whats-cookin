@@ -5,6 +5,8 @@ region: North America
 parent:
 spice_profile:
   - "[[ground-cumin]]"
+  - "[[dried-red-chili]]"
+  - "[[chili-lime-seasoning]]"
 common_ingredients:
   - "[[corn-tortillas]]"
   - "[[black-beans]]"
@@ -13,11 +15,27 @@ common_ingredients:
   - "[[onion]]"
   - "[[garlic]]"
   - "[[queso-fresco]]"
+  - "[[tomato-sauce]]"
+  - "[[bell-pepper]]"
+  - "[[carrot]]"
+  - "[[pickled-jalapenos]]"
+  - "[[pinto-beans]]"
+  - "[[long-grain-white-rice]]"
+  - "[[tomato-bouillon]]"
+  - "[[frozen-peas]]"
+  - "[[taco-seasoning]]"
+  - "[[avocado]]"
+  - "[[jalapeno]]"
 recipes:
   - "[[black-bean-tacos]]"
+  - "[[instant-pot-mexican-rice]]"
+  - "[[bean-filling]]"
+  - "[[tex-mex-salad]]"
 tags: [seed]
-sources: []
-updated: 2026-11-14
+sources:
+  - "[[instant-pot-authentic-mexican-rice]]"
+  - "[[ammas-bean-filling]]"
+updated: 2026-11-15
 ---
 # Mexican
 
@@ -45,3 +63,7 @@ Corn tortillas, canned black beans, dried ancho and guajillo chiles, Mexican ore
 
 ## Recipes
 - [[black-bean-tacos]]
+- [[instant-pot-mexican-rice]]
+- [[bean-filling]]
+- [[tex-mex-salad]]
+

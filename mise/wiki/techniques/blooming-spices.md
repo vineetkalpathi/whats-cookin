@@ -10,9 +10,13 @@ used_in:
   - "[[chana-masala]]"
   - "[[black-bean-tacos]]"
   - "[[instant-pot-chana-masala]]"
+  - "[[shakshuka]]"
+  - "[[yellow-moong-khichdi]]"
+  - "[[onion-tomato-chutney]]"
+  - "[[asparagus-soup]]"
 tags: [seed]
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Blooming Spices
 
@@ -29,3 +33,10 @@ Strong aroma, a slight darkening, and seeds popping. Smoke or black specks mean 
 ## Common mistakes
 - Ground spices in oil that's too hot. They burn in seconds.
 - Crowding the pan with too little fat, so the spices toast unevenly.
+
+## Used in
+- [[shakshuka]]
+- [[yellow-moong-khichdi]]
+- [[onion-tomato-chutney]]
+- [[asparagus-soup]]
+

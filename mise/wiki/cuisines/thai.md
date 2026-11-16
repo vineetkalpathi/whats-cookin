@@ -11,12 +11,19 @@ common_ingredients:
   - "[[cilantro]]"
   - "[[mint]]"
   - "[[peanuts]]"
+  - "[[sriracha]]"
+  - "[[thai-red-curry-paste]]"
+  - "[[coconut-milk]]"
+  - "[[coconut-cream]]"
+  - "[[baby-corn]]"
 recipes:
   - "[[thai-tofu-salad]]"
+  - "[[thai-curry]]"
+  - "[[thai-coconut-butternut-squash-soup]]"
 tags: []
 sources:
   - "[[thai-beef-salad]]"
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Thai
 
@@ -47,3 +54,6 @@ Fish sauce, palm or white sugar, limes, Thai chilis (they freeze), jasmine rice,
 
 ## Recipes
 - [[thai-tofu-salad]]
+- [[thai-curry]]
+- [[thai-coconut-butternut-squash-soup]]
+

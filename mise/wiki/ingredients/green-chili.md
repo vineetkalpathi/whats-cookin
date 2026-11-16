@@ -9,13 +9,20 @@ cuisines:
   - "[[indian]]"
 used_in:
   - "[[chana-masala]]"
+  - "[[yellow-moong-khichdi]]"
+  - "[[paneer-kathi-rolls]]"
+  - "[[methi-lagaan]]"
+  - "[[killu-bonda]]"
+  - "[[tomato-soup]]"
+  - "[[thai-curry]]"
+  - "[[asparagus-soup]]"
 find_at: []
 substitutes:
   - "[[thai-chili]]: hotter, use half"
   - "serrano: closest supermarket match (no page yet)"
 tags: []
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Green Chili
 
@@ -29,3 +36,11 @@ Small fresh Indian green chilis, often slit and added whole for aroma with moder
 
 ## Used in
 - [[chana-masala]]
+- [[yellow-moong-khichdi]]
+- [[paneer-kathi-rolls]]
+- [[methi-lagaan]]
+- [[killu-bonda]]
+- [[tomato-soup]]
+- [[thai-curry]]
+- [[asparagus-soup]]
+

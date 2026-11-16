@@ -1,105 +1,248 @@
 ---
 type: index
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Kitchen Wiki Index
 
 Every wiki page, by type. Maintained by the agent: one line per page, alphabetical. Start at [[overview]], and see [[log]] for history.
 
 ## Cuisines
+- [[american]] - This page is a catch-all, and worth being honest about: it covers the Western home-cooking register that several of Amma's recipes are written in...
 - [[indian]] - South Asian family of cuisines. Tadka, masala base, layered spicing
 - [[italian]] - Ingredient-first, regional. Soffritto, aglio-olio, pasta-water sauces
 - [[japanese]] - Umami-led, soy/dashi/sesame. Stub (one fusion recipe)
+- [[mediterranean]] - Olive oil, vegetables, fresh herbs and acid, from Spain to the Levant
 - [[mexican]] - Corn, beans, chiles. Charred salsas, fresh onion/cilantro/lime finish
+- [[middle-eastern]] - Warm spice, sesame, pulses, sour notes. Overlaps mediterranean
+- [[russian-ukrainian]] - The cooking of Russia and Ukraine, represented here by one deeply-specified family recipe.
 - [[thai]] - Salty-sour-sweet-hot balance, fresh herbs
 
 ## Recipes
+- [[almond-flour-cake]] - A flourless almond sponge leavened with whipped egg whites, with a layer of chocolate chips through the middle. · american · 55 min · vegetarian · not in rotation
+- [[asian-cabbage-salad]] - A two-cabbage chopped slaw with edamame and toasted almonds. · american · 20 min · vegetarian
+- [[asparagus-soup]] - Blended asparagus soup with a tadka-style start — garlic, green chili, onion — and a teaspoon of flour to thicken. · american · 30 min · vegetarian
+- [[bean-filling]] - Amma's make-ahead bean and veg filling for quesadillas, enchiladas, pasta · mexican · 30 min · vegan · component
 - [[black-bean-tacos]] - Cumin black beans in charred corn tortillas · mexican · 25 min
+- [[borscht]] - Beet and cabbage soup built on caramelized onions and tomato paste, finished with red wine vinegar, sour cream and dill. · russian-ukrainian · 75 min · vegetarian
 - [[chana-masala]] - Traditional Punjabi chole, tea-darkened chickpeas, chana masala blend · indian · 9 h incl. soak · vegetarian
 - [[creamy-udon-noodles]] - Udon in silken-tofu chili crisp sauce, glazed tofu crumbles · japanese · 35 min · vegan
 - [[instant-pot-chana-masala]] - One-pot IP chole, cumin tadka · indian · 5 min PC with canned, 35 with dried · vegetarian
+- [[instant-pot-mexican-rice]] - Toasted long grain rice with tomato bouillon, carrot, peas · mexican · 23 min · side
+- [[killu-bonda]] - Deep-fried vegetable fritters on a four-flour batter bound with idli batter. · indian · 40 min · vegan
+- [[methi-lagaan]] - A baked savoury cake of semolina, besan and greens — the oven-baked cousin of handvo. · indian · 60 min · vegetarian
+- [[onion-tomato-chutney]] - The dal-tempered onion and tomato chutney written alongside the bondas. · indian · 25 min · vegan · not in rotation
+- [[paneer-kathi-rolls]] - Paneer and peppers in a yogurt-and-spice marinade, cooked fast and rolled into frozen paratha with two chutneys. · indian · 40 min · vegetarian
 - [[pasta-aglio-e-olio]] - Garlic, oil, and chile spaghetti · italian · 20 min
+- [[pasta-salad]] - A two-stage pasta salad: an oil-and-lemon base made ahead, with mayonnaise and raw onion folded in only at serving. · american · 30 min · vegetarian
+- [[quinoa-salad]] - A fridge-clearing chopped salad where quinoa is a minor component, dressed with a honey-mustard vinaigrette shaken in a bottle. · american · 35 min · vegetarian
+- [[shakshuka]] - Eggs poached in spiced tomato-pepper sauce, one skillet · mediterranean, middle-eastern · 40 min · vegetarian
+- [[tex-mex-salad]] - A quinoa, black bean and corn bowl dressed with a lime-and-spice marinade, with avocado folded in at the last moment. · mexican · 35 min · vegan
+- [[thai-coconut-butternut-squash-soup]] - Blended butternut squash soup built on fried red curry paste, finished off the heat with coconut milk and lime. · thai · 45 min · vegetarian
+- [[thai-curry]] - A loose family template: fry the aromatics in order, fry the curry paste, then vegetables, tofu and coconut. · thai · 40 min · vegetarian
 - [[thai-tofu-salad]] - Thai beef salad with seared tofu, lime/soy dressing · thai · 30 min · vegan
+- [[tomato-mozzarella-panini]] - A pressed caprese-style sandwich with the household twist: green chutney instead of pesto, and pickled jalapeños. · italian · 20 min · vegetarian
+- [[tomato-soup]] - Tomato soup thickened with dry-roasted yellow moong dal instead of cream — made in batch and bottled. · indian · 45 min · vegetarian
+- [[veggie-pasta]] - Amma's pasta gravy: sauteed veg plus jarred sauce. Template recipe · italian · 30 min · vegetarian
+- [[yellow-moong-khichdi]] - One-pot rice and yellow moong dal with a full tadka, cooked on the Instant Pot's Rice program. · indian · 45 min · vegetarian
 
 ## Ingredients
+- [[all-purpose-flour]] - Plain wheat flour of middling protein, between cake and bread flour. · staple
+- [[all-purpose-seasoning]] - A pre-mixed dried blend of alliums, herbs and pepper. · staple
+- [[almond-flour]] - Blanched almonds ground fine and sieved. · specialty · staple
+- [[almonds]] - Whole raw almonds, bought to be toasted. · staple
+- [[amchur]] - Unripe green mango, dried and ground to a pale, fibrous powder. · indian · specialty · staple
 - [[asafoetida]] - Resin spice (hing). Savory allium note · specialty
+- [[asparagus]] - Spring spears, grassy and faintly bitter, at their sweetest within a day or two of cutting. · seasonal
+- [[avocado]] - Buttery, mild and faintly grassy. · mexican
+- [[baby-corn]] - Immature maize cobs eaten whole, cob and all. · thai · specialty · staple
+- [[baking-powder]] - Bicarbonate of soda pre-mixed with a dry acid and a little starch, so it raises on its own. · staple
+- [[baking-soda]] - Pure sodium bicarbonate. · staple
+- [[basil]] - Sweet anise herb. Off the heat only; never refrigerate
 - [[bay-leaf]] - Whole leaf fried in fat. Tej patta vs bay laurel
+- [[beet]] - Dense, sweet root with a distinct earthy note that people either like or avoid. · russian-ukrainian
+- [[bell-pepper]] - All colours, one page. Green is grassy, red/yellow sweeter
+- [[besan]] - Flour milled from split brown chickpeas, the same pulse as chana-dal. · indian · specialty · staple
 - [[black-beans]] - Earthy legume · staple
+- [[black-mustard-seeds]] - Small round black-brown seeds, pungent when crushed raw and nutty-sweet once they have popped in hot fat. · indian · specialty · staple
 - [[black-pepper]] - Ground pepper · staple
 - [[black-tea]] - Tea bag darkens chole
+- [[broccoli]] - By the crown. Holds crunch in a hot saute
+- [[butter]] - Churned cream, roughly 80% fat with water and milk solids making up the rest. · staple
+- [[butternut-squash]] - Dense orange winter squash, sweet and slightly nutty, which is why it carries coconut and chilli so well. · american
+- [[carrot]] - Sweetness and colour; slowest vegetable in a mixed saute · staple
+- [[cauliflower]] - A brassica grown for its unopened flower head: mild, faintly sweet, and sulphurous the moment it is overcooked.
+- [[celery]] - Crunchy and saline with a bitter, faintly aniseed edge.
+- [[chana-dal]] - Split, skinned brown chickpeas. · indian · specialty · staple
 - [[chana-masala-powder]] - Tangy Punjabi chickpea blend · indian · specialty
 - [[cherry-tomatoes]] - Sweet small tomatoes, by the pint
 - [[chickpeas]] - Nutty, firm legume (canned) · staple
 - [[chili-crisp]] - Chinese chili-in-oil condiment with crunch
+- [[chili-lime-seasoning]] - A powder of mild chilli, dehydrated lime and a good deal of salt; Tajín is the reference brand. · mexican · specialty · staple
+- [[chocolate-chips]] - Chips are formulated to hold their shape: less cocoa butter than a bar, often with added stabilisers, so they soften in the oven without really... · staple
+- [[ciabatta]] - An open-crumbed Italian loaf with a thin, crisp crust and a chewy, holey interior. · italian
 - [[cilantro]] - Citrusy herb, stems included
+- [[coconut-cream]] - The thick fraction of coconut milk: the same ingredient with less water, around 20 to 25% fat against roughly 10% for coconut-milk. · thai · specialty · staple
+- [[coconut-milk]] - Full-fat coconut milk from a can: sweet, rich and faintly grassy, and the thing that gives a Thai curry its body as well as its fat. · thai · staple
+- [[coriander-cumin-powder]] - Dhana jeera: a pre-mixed blend of ground coriander seed and ground cumin, usually around two parts coriander to one of cumin. · indian · specialty · staple
 - [[corn-tortillas]] - Nixtamalized masa flatbreads
 - [[crushed-tomatoes]] - Canned tomato purée · staple
 - [[cucumber]] - Deseed for salads
 - [[cumin-seeds]] - Whole cumin. Bloomed in fat for tadka · indian · staple
+- [[curry-leaves]] - Small glossy leaves on a thin stem, with a citrus-and-savoury smell that only really comes out when they hit hot fat. · indian · specialty
 - [[dark-soy-sauce]] - Thick, sweet soy for color · specialty
+- [[dill]] - Feathery fresh fronds, grassy and faintly aniseed, with a sharpness that cuts fat and sweetness. · russian-ukrainian
 - [[dried-chickpeas]] - Bagged chickpeas. Soak, pressure cook 35 min · indian · staple
+- [[dried-cranberries]] - Cranberries dried and sweetened — tart underneath, sweet enough to read as candy, chewy like a raisin. · staple
+- [[dried-red-chili]] - Whole dried red chilies, usually a long thin Indian variety. · indian, mexican · staple
+- [[edamame]] - Young green soybeans, sold shelled and frozen. · staple
+- [[egg]] - Large by default. Freshness shows when it's the centre of the dish · staple
 - [[extra-firm-tofu]] - Block tofu for searing and crumbling
+- [[fenugreek-leaves]] - Fresh methi: small clover-shaped leaves, deeply savoury and frankly bitter, with the maple-ish aroma fenugreek is known for. · indian · specialty
+- [[feta]] - Brined white cheese, traditionally sheep's or sheep-and-goat's milk: salty, sharply tangy and crumbly, slightly chalky.
 - [[fish-sauce]] - Salty-savory pillar of Thai dressings · thai
+- [[fresh-mozzarella]] - Soft white mozzarella sold in balls in whey or brine: milky, mild, barely salty and wet. · italian
+- [[frozen-peas]] - Better than fresh; add off the heat · staple
 - [[garam-masala]] - North Indian warm-spice finishing blend
-- [[garlic]] - Allium. The finer the cut, the sharper the flavor · staple
 - [[garlic-powder]] - Mellow dried garlic for glazes and rubs · staple
+- [[garlic]] - Allium. The finer the cut, the sharper the flavor · staple
 - [[ghee]] - Clarified butter. Default fat for tadka · indian
+- [[ginger-peanut-dressing]] - A pourable peanut-and-ginger salad dressing: peanut butter, grated ginger, soy sauce and something acidic, loosened with water or oil and... · specialty
 - [[ginger]] - Fresh rhizome. Grate it frozen
+- [[green-cabbage]] - The dense, pale-green head cabbage. · russian-ukrainian
 - [[green-chili]] - Indian green chili, serrano-like · indian
+- [[green-chutney]] - A fresh, uncooked chutney of cilantro and mint ground with green-chili, ginger, lemon and salt. · indian · specialty
 - [[ground-coriander]] - Citrusy bulk masala spice · indian · staple
 - [[ground-cumin]] - Pre-ground cumin. Stales fast, burns fast · indian, mexican · staple
 - [[ground-turmeric]] - Earthy yellow, a pinch per pot · indian · staple
+- [[honey-mustard]] - Bottled mustard sweetened with honey: thick, mild and sweet-sharp, far gentler than plain mustard. · staple
+- [[idli-batter]] - Fermented batter of ground rice and urad-dal, sold in tubs and normally steamed into idlis. · indian · specialty
+- [[jalapeno]] - The fresh green chili: firm, thick-walled and bright, with a grassy, vegetal heat that is moderate and genuinely unpredictable — some are nearly... · mexican
 - [[kashmiri-chili-powder]] - Red color, mild heat · indian · specialty
 - [[kasoori-methi]] - Dried fenugreek leaves, finishing · indian · specialty
 - [[kosher-salt]] - Coarse salt. Brand density varies · staple
+- [[lemon]] - The standard sour citrus: sharp and rounded, and much less perfumed than lime.
 - [[lime]] - About 2 tbsp juice each
+- [[long-grain-white-rice]] - Rinse, drain, toast. 1:1 water under pressure · staple
+- [[mayonnaise]] - An emulsion of oil, egg yolk and acid: rich, mild and faintly tangy, and what makes a dressed salad creamy rather than oily. · american · staple
+- [[milk]] - Whole dairy milk. · staple
 - [[mint]] - Fresh herb, paired with cilantro · thai
 - [[mixed-greens]] - Mixed lettuce leaves
+- [[mushroom]] - Button or cremini, by the carton. Savoury depth, lots of water
+- [[naan]] - Leavened flatbread, traditionally slapped onto the wall of a tandoor: soft, chewy and blistered, and richer than a roti because the dough carries... · indian
 - [[neutral-oil]] - High smoke point, flavorless · staple
 - [[nutritional-yeast]] - Cheesy vegan umami flakes
 - [[olive-oil]] - EVOO. Flavor fat · staple
 - [[onion]] - Yellow by default, white for raw garnish · staple
+- [[paneer]] - Fresh unaged cheese, made by curdling milk with acid and pressing it: mild, milky, faintly squeaky, and it does not melt. · indian · specialty
+- [[paratha]] - Layered unleavened flatbread: fat is folded through the dough so it cooks up flaky and comes apart in sheets, where naan is leavened, soft and chewy. · indian · specialty
 - [[parmesan]] - Aged hard cheese. Grate fresh
 - [[parsley]] - Flat-leaf herb
+- [[pasta-sauce]] - Seasoned jarred sauce. Pesto and creamy reds contain cheese · staple
+- [[pasta]] - Short dried shapes; ridges hold chunky sauce · italian · staple
 - [[peanuts]] - Roasted, unsalted, for crunch · thai
+- [[pesto]] - Basil pounded with pine nuts, garlic, hard cheese and olive oil. · italian · staple
+- [[pickled-jalapenos]] - Milder than fresh; the jar vinegar is an ingredient · mexican · staple
+- [[pinto-beans]] - Softer, creamier alternative to black beans · mexican · staple
+- [[plain-yogurt]] - Whole-milk yogurt with nothing added, sold as dahi or curd. · indian · staple
 - [[queso-fresco]] - Fresh crumbly cheese
+- [[quinoa]] - A small seed cooked and eaten like a grain. · american · staple
+- [[rava]] - Coarsely milled durum wheat, sold as rava or sooji and called semolina in English. · indian · specialty · staple
+- [[red-cabbage]] - The same vegetable as green-cabbage with anthocyanin pigment in the leaves.
+- [[red-chili-powder]] - Plain ground hot red chilli, sold as lal mirch powder. · indian · staple
 - [[red-onion]] - Milder onion for raw use
 - [[red-pepper-flakes]] - Crushed dried chile · staple
+- [[red-wine-vinegar]] - Red wine soured into vinegar. · russian-ukrainian · staple
+- [[rice-flour]] - Raw white rice milled fine. · staple
 - [[rice-vinegar]] - Mild vinegar; buy unseasoned
 - [[roma-tomato]] - Plum tomato, cooks down fast
+- [[russet-potato]] - The big brown-skinned baking potato, high in starch and floury rather than waxy. · staple
+- [[rye-bread]] - A dense dark loaf, sour and earthy, covering everything from a seeded deli rye to black bread and pumpernickel. · russian-ukrainian
 - [[scallion]] - Green onion garnish · japanese
 - [[sesame-seeds]] - Toast for garnish · japanese
 - [[silken-tofu]] - Custardy tofu that blends to a cream sauce
 - [[smoked-paprika]] - Smoky ground pepper
+- [[sour-cream]] - Cream soured with cultures, around 18 to 20% fat: thick, rich and gently tangy. · russian-ukrainian
 - [[soy-sauce]] - Regular ("light") soy sauce · japanese · staple
 - [[spaghetti]] - Bronze-die for better sauces · staple
+- [[spinach]] - A soft green leaf, mild and faintly mineral, that wilts to almost nothing: a large bag collapses to a couple of spoonfuls.
+- [[sriracha]] - Smooth chili-garlic sauce, vinegar and sugar forward · staple
 - [[sugar]] - White granulated · staple
+- [[sweet-chutney]] - Thick, dark, sweet-sour chutney made from tamarind or dates with jaggery and warm spices, almost syrupy and glossy. · indian · specialty
+- [[sweet-corn]] - Sweet yellow corn kernels, bought fresh on the cob, frozen or canned.
+- [[sweet-paprika]] - Mild ground red pepper, for colour. Not smoked paprika
+- [[taco-seasoning]] - Tex-Mex pre-mix, salt-heavy. Taste before committing · mexican
+- [[tamarind]] - The pulp of the tamarind pod, sold as a sticky dark block of seedless pulp, as a smooth jarred concentrate, or as whole pods. · indian · specialty · staple
 - [[thai-chili]] - Bird's eye chili, very hot · thai · specialty
+- [[thai-red-curry-paste]] - A pounded paste of dried red chillies, lemongrass, galangal, garlic, shallot, coriander root and usually shrimp paste. · thai · staple
+- [[tomato-bouillon]] - Caldo de tomate. Flavour and colour of Mexican rice; usually contains chicken · mexican · specialty
 - [[tomato-paste]] - Concentrated tomato, burns in glazes
+- [[tomato-sauce]] - Plain unseasoned canned tomato (passata). Not jarred pasta sauce · staple
+- [[tomato]] - Everyday slicing tomato. Lots of water, needs reducing
 - [[udon-noodles]] - Thick wheat noodles; precooked frozen is best · japanese
+- [[urad-dal]] - Split and skinned black gram: small, flat, ivory-coloured. · indian · specialty · staple
+- [[vanilla-extract]] - Vanilla beans extracted into alcohol. · staple
+- [[vegetable-bouillon-paste]] - A salty savoury concentrate sold in a jar: a soft paste you spoon out and dissolve, usually a teaspoon to a cup of water. · staple
+- [[vegetable-broth]] - Ready-to-use savoury liquid in a carton, used in place of water so a soup tastes of something from the start. · staple
+- [[whole-wheat-flour]] - Atta: wheat milled with the bran and germ left in, so it is beige, slightly nutty and faintly bitter, and thirstier than white flour. · staple
+- [[yellow-moong-dal]] - Split, skinned mung bean: small, flat and pale yellow. · indian · specialty · staple
+- [[zucchini]] - Mild summer squash, mostly water. Add late
 
 ## Equipment
+- [[baking-dish]] - An oven-safe rectangular or square dish - glass, ceramic or metal - for anything baked in a layer rather than in a tin: gratins, traybakes, and... · owned
 - [[blender]] - Smooth sauces · owned
+- [[cake-pan]] - A round tin, 8 or 9 inches, for cakes that are turned out rather than served from the dish. · owned
 - [[chefs-knife]] - All-purpose 8–10" blade
 - [[dutch-oven]] - Heavy lidded pot for braises and curries
+- [[electric-mixer]] - A hand mixer, or a stand mixer with a whisk attachment. · owned
 - [[instant-pot]] - Electric pressure cooker · owned
 - [[mortar-and-pestle]] - Pounding aromatic pastes · not owned
+- [[panini-press]] - A hinged double-sided grill: two heated plates, usually ridged, that toast both faces of a sandwich at once while the weight of the upper plate... · owned
+- [[saucepan]] - A deep, straight-sided pan with a lid, 2-4 quarts. · owned
 - [[skillet]] - 10–12" pan. Doubles as a comal
+- [[slow-cooker]] - A countertop crock that holds a low, steady heat for hours, so a pot can be left alone all day. · not owned
 
 ## Techniques
 - [[blooming-spices]] - Frying spices in fat to extract aroma (tadka)
+- [[caramelizing-onions]] - Cooking onions past translucent and on into brown, slowly, until they turn sweet.
 - [[charring-tortillas]] - High-heat toasting for pliable, flavorful tortillas
+- [[deep-frying]] - Cooking food fully submerged in hot oil, around 350°F, until it is crisp outside and cooked through.
+- [[dry-roasting]] - Toasting seeds, dal or spices in a dry pan - no fat at all - until they smell nutty.
 - [[emulsifying-pasta-water]] - Starch-stabilized fat-and-water sauce
+- [[folding-egg-whites]] - Combining whipped egg whites into a heavy batter without knocking the air out of them.
+- [[frying-curry-paste]] - Frying curry paste in hot fat before any liquid goes into the pot.
+- [[poaching-eggs-in-sauce]] - Eggs set in a thick simmering sauce; the sauce must hold a well
 - [[pressure-cooking]] - High-pressure steam for beans; timings table
+- [[saute-to-bite]] - Heat and lid as the levers for crunchy vs soft vegetables
 - [[searing]] - High-heat browning in a smoking pan
+- [[toasting-nuts]] - Browning nuts in a dry pan until they smell nutty and turn crisp.
+- [[toasting-rice]] - Frying dry rice to golden before liquid, for flavour and separate grains
 
 ## Stores
 - [[indian-grocery]] - Placeholder specialty grocer for South Asian items
 - [[trader-joes]] - Small private-label range, limited specialty spices
 
 ## Sources
+- [[ammas-almond-flour-cake]] - A flourless almond sponge leavened with whipped egg whites, with chocolate chips layered through the middle.
+- [[ammas-asian-cabbage-salad]] - A blog-style chopped slaw written as commentary on each component, with no measurements.
+- [[ammas-asparagus-soup]] - A one-page numbered method for a blended asparagus soup, with a tadka-style aromatic start and a teaspoon of flour as a light thickener.
+- [[ammas-bean-filling]] - Amma: bean and vegetable filling (family PDF)
+- [[ammas-borscht]] - Beet and cabbage soup written as a bulleted ingredient list plus one prose paragraph of method.
+- [[ammas-killu-bonda]] - A single page carrying two recipes — deep-fried vegetable bondas on a four-flour batter, and a dal-tempered onion-tomato chutney to go with them.
+- [[ammas-methi-lagaan]] - Two-page baked savoury cake of rava, besan and maida loaded with methi, carrot, corn and onion, bound with equal parts milk and oil.
+- [[ammas-paneer-kathi-rolls]] - Two-page recipe for 6 servings: paneer in a yogurt-and-spice marinade, a fast pepper-and-onion filling, and store-bought paratha as the wrapper.
+- [[ammas-pasta-gravy]] - Amma: pasta gravy, filed as veggie-pasta (family PDF)
+- [[ammas-pasta-salad]] - A mayo-and-lemon pasta salad with an opinionated storage rule: the mayonnaise and onion go in only at serving.
+- [[ammas-quinoa-salad]] - A chopped vegetable salad where quinoa is a minor component, with a honey-mustard dressing shaken in a bottle.
+- [[ammas-tex-mex-salad]] - A fully quantified quinoa, black bean and corn salad with a whisked lime-and-spice marinade.
+- [[ammas-thai-coconut-butternut-squash-soup]] - A fully measured blog-style recipe — the most precisely specified source in the collection — giving both a stovetop and a slow cooker route to the...
+- [[ammas-thai-curry]] - A one-page family template for vegetable and tofu curry from jarred Thai paste.
+- [[ammas-tomato-mozzarella-panini]] - A one-page sandwich build with no quantities at all: tomato, fresh mozzarella and jalapeños on ciabatta, pressed.
+- [[ammas-tomato-soup]] - Tomato soup thickened with dry-roasted yellow moong dal rather than cream, made in batch for bottling.
+- [[ammas-yellow-moong-khichdi]] - Two-page illustrated Instant Pot khichdi: equal parts rice and yellow moong dal, a full staged tadka, and a 1:2 water ratio.
 - [[creamy-udon-noodles-with-tofu-high-protein]] - Dr. Vegan: creamy udon with two tofu textures
+- [[instant-pot-authentic-mexican-rice]] - Tastes Better From Scratch: Instant Pot Mexican rice
 - [[instant-pot-chana-masala-punjabi-chole]] - Ministry of Curry: Instant Pot chole
+- [[shakshuka-recipe-mediterranean-dish]] - The Mediterranean Dish: shakshuka
 - [[thai-beef-salad]] - RecipeTin Eats: Thai beef salad
 - [[traditional-chana-masala-recipe-chole]] - Ministry of Curry: traditional stovetop chole
 

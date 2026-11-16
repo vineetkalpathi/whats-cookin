@@ -9,11 +9,12 @@ cuisines:
   - "[[japanese]]"
 used_in:
   - "[[creamy-udon-noodles]]"
+  - "[[methi-lagaan]]"
 find_at: []
 substitutes: []
 tags: []
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Sesame Seeds
 
@@ -23,3 +24,5 @@ White (or black) seeds, best toasted. Toast in a dry pan until golden and fragra
 
 ## Used in
 - [[creamy-udon-noodles]]
+- [[methi-lagaan]]
+

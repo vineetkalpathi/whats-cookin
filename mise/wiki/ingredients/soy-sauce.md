@@ -10,13 +10,14 @@ cuisines:
 used_in:
   - "[[creamy-udon-noodles]]"
   - "[[thai-tofu-salad]]"
+  - "[[thai-curry]]"
 find_at: []
 substitutes:
   - "tamari: 1:1, gluten-free (no page yet)"
   - "[[fish-sauce]]: half the amount, different funk"
 tags: []
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Soy Sauce
 
@@ -31,3 +32,5 @@ Regular ("light" in Chinese recipes, meaning thin, not low-sodium) soy sauce. Th
 ## Used in
 - [[creamy-udon-noodles]]
 - [[thai-tofu-salad]]
+- [[thai-curry]]
+

@@ -8,11 +8,13 @@ related:
 used_in:
   - "[[chana-masala]]"
   - "[[instant-pot-chana-masala]]"
+  - "[[instant-pot-mexican-rice]]"
+  - "[[yellow-moong-khichdi]]"
 tags: []
 sources:
   - "[[traditional-chana-masala-recipe-chole]]"
   - "[[instant-pot-chana-masala-punjabi-chole]]"
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Pressure Cooking
 
@@ -36,3 +38,8 @@ Chickpeas should crush easily between two fingers. If not, seal and cook 5-10 mi
 - Browned bits stuck to the bottom: the Instant Pot reads it as burning.
 - Adding tomatoes or acid before pressure cooking can keep beans firm; the Instant Pot chana masala adds tomatoes after. (per [[instant-pot-chana-masala-punjabi-chole]])
 - Too little liquid: most pots need about ½-1 cup minimum to come to pressure.
+
+## Used in
+- [[instant-pot-mexican-rice]]
+- [[yellow-moong-khichdi]]
+

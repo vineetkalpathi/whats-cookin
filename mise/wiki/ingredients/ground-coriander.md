@@ -7,13 +7,19 @@ availability: common
 staple: true
 cuisines:
   - "[[indian]]"
+  - "[[mediterranean]]"
+  - "[[middle-eastern]]"
 used_in:
   - "[[instant-pot-chana-masala]]"
+  - "[[shakshuka]]"
+  - "[[yellow-moong-khichdi]]"
+  - "[[paneer-kathi-rolls]]"
 find_at: []
 substitutes: []
 tags: []
-sources: []
-updated: 2026-11-14
+sources:
+  - "[[shakshuka-recipe-mediterranean-dish]]"
+updated: 2026-11-15
 ---
 # Ground Coriander
 
@@ -23,3 +29,7 @@ Ground coriander seed: citrusy, nutty, mild. Used generously (a tablespoon per p
 
 ## Used in
 - [[instant-pot-chana-masala]]
+- [[shakshuka]]
+- [[yellow-moong-khichdi]]
+- [[paneer-kathi-rolls]]
+

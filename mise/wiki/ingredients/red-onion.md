@@ -8,13 +8,14 @@ staple: false
 cuisines: []
 used_in:
   - "[[thai-tofu-salad]]"
+  - "[[paneer-kathi-rolls]]"
 find_at: []
 substitutes:
   - "shallot: 1 small per 1/4 red onion, milder (no page yet)"
   - "[[onion]]: sharper raw; soak slices in cold water first"
 tags: []
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Red Onion
 
@@ -26,3 +27,5 @@ Milder and sweeter than yellow [[onion]], the usual choice raw. Slice very finel
 
 ## Used in
 - [[thai-tofu-salad]]
+- [[paneer-kathi-rolls]]
+

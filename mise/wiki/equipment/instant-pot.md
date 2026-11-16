@@ -4,15 +4,19 @@ title: Instant Pot
 owned: true
 techniques:
   - "[[pressure-cooking]]"
+  - "[[toasting-rice]]"
 substitutes:
   - "stovetop pressure cooker: same times at high pressure (per [[traditional-chana-masala-recipe-chole]])"
 used_in:
   - "[[chana-masala]]"
   - "[[instant-pot-chana-masala]]"
+  - "[[instant-pot-mexican-rice]]"
+  - "[[yellow-moong-khichdi]]"
+  - "[[asparagus-soup]]"
 tags: []
 sources:
   - "[[instant-pot-chana-masala-punjabi-chole]]"
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Instant Pot
 
@@ -26,3 +30,9 @@ Electric multicooker: sauté, pressure cook, slow cook. The user cooks several r
 
 ## Substitutes
 - Stovetop pressure cooker: same times at high pressure.
+
+## Used in
+- [[instant-pot-mexican-rice]]
+- [[yellow-moong-khichdi]]
+- [[asparagus-soup]]
+

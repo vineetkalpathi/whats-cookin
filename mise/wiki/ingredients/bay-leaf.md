@@ -9,11 +9,12 @@ cuisines:
   - "[[indian]]"
 used_in:
   - "[[chana-masala]]"
+  - "[[borscht]]"
 find_at: []
 substitutes: []
 tags: []
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Bay Leaf
 
@@ -23,3 +24,5 @@ Dried leaf fried whole in the fat at the start of a dish, removed before serving
 
 ## Used in
 - [[chana-masala]]
+- [[borscht]]
+

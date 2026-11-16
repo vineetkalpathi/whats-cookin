@@ -8,12 +8,13 @@ staple: true
 cuisines: []
 used_in:
   - "[[creamy-udon-noodles]]"
+  - "[[quinoa-salad]]"
 find_at: []
 substitutes:
   - "[[garlic]]: 1 clove per 1/8 tsp, sharper, can burn in a glaze"
 tags: []
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Garlic Powder
 
@@ -24,3 +25,5 @@ Dried ground garlic. Mellow and even, good in rubs and glazes where fresh garlic
 
 ## Used in
 - [[creamy-udon-noodles]]
+- [[quinoa-salad]]
+

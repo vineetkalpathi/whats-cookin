@@ -9,13 +9,14 @@ cuisines:
   - "[[indian]]"
 used_in:
   - "[[instant-pot-chana-masala]]"
+  - "[[yellow-moong-khichdi]]"
 find_at: []
 substitutes:
   - "[[ground-cumin]]: about 1:1 by volume, but it can't be bloomed whole. Add it after the onions instead, or it scorches"
   - "caraway seeds: 1/2 the amount, related but more anise-like (no page yet)"
 tags: [seed]
 sources: []
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Cumin Seeds
 
@@ -29,3 +30,5 @@ Whole cumin: warm, earthy, slightly bitter. The seeds are usually bloomed in hot
 
 ## Used in
 - [[instant-pot-chana-masala]]
+- [[yellow-moong-khichdi]]
+
